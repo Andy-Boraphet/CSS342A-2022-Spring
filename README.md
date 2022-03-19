@@ -80,7 +80,7 @@ The goals of this course are for students to:
      
 |  Date | Week | Topics | Chapters | Homework |
 | --- | --- | --- | :--- | --- |
-| 3/30, 4/1 | 1 | Course intro, Dev setup<br/>C++ basics<br/>TDD basics<br/>Homework submission walthrough | C++ ch 1, ch interlue 2, apendx A & B | 1 |
+| 3/30, 4/1 | 1 | Course intro, dev setup<br/>C++ basics<br/>TDD basics<br/>Homework submission walthrough | C++ ch 1, ch interlue 2, apendx A & B | 1 |
 | 4/6, 4/8 | 2 | C++<br/>Makefile, CMake<br/>Debugging<br/>Unit Testing<br/>  | C++ ch interlude {1, 5, 6}, ch {3, 4 & 11} | 1, 2 |
 | 4/13, 4/15 | 3 | OOP, ADT (array, array list) | C++ ch {8, 9, 12} |  2  |
 | 4/20, 4/22 | 4 | OOP, ADT (linked list, iterator)<br/>STL intro | C++ ch interlude {8}, ch {6, 7, 13, 14} | 2, 3 |
