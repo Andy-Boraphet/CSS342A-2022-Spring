@@ -48,3 +48,19 @@ All grades will be listed as percentages in the Canvas LMS. The conversion table
 
 Here's the [full list](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/books.md) of books including optional and recommended.
 
+## Class Goals
+The goals of this course are for students to: 
+
+- Be comfortable with OOP programming and debugging in C++
+- Excise and reinforce the knowledge about fundamental data structures and algorithms, and as a result improve problem solving skills
+- Adopt the "clean code" (e.g. [this](https://youtu.be/AeWbJ5LIFNg) and [this too](https://youtu.be/4F72VULWFvc)) mindset via the practice of TDD ([Test Driven Development](https://youtu.be/d1EAyR_NCOA))
+- Practice and adopt the use of source control system
+- Be exposed to IT-industry popular development tools such as CMake, CLion, Git/Github/CICD, Vim, cloud and virtual machine, CICD
+
+## Lecture
+- Read the relevant textbook chapters before each class.
+- There will be live "code-along" in lecutre. Have a running dev environment ready for each lecture.
+- Lecture will be recorded to the best effort. Video, PPT slides and demo code from class will be available shortly after each lecture.
+- PPT Slides are for reference only and tentative to change even after lecture.
+- Take notes. Write down your questions in class and follow up later.
+
