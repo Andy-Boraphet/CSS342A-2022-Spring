@@ -74,7 +74,8 @@ The goals of this course are for students to:
 - The following table provides an approximate, high-level ordering of topics, not all sections in the book are covered. 
 - Schedule is tentative and subject to change. Changes will be announced in class and/or Discrod channels.
 
-![Image of Grading Rubric](https://github.com/pdgetrf/UWB_CSS342_2019_Fall/blob/master/images/schedule.png)
+![Image of Grading Rubric](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/images/schedule.png)
+
 [detailed schedule](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/schedule.md)
 
 ## Policy (IMPORTANT)
