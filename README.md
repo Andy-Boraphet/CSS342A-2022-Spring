@@ -48,10 +48,6 @@ All grades will be listed as percentages in the Canvas LMS. The conversion table
 - [An Active Introduction to Discrete Mathematics and Algorithms, Charles Cusack, David Santos, GNU Free Software, 2014](https://cusack.hope.edu/Notes/Notes/Books/Active%20Introduction%20to%20Discrete%20Mathematics%20and%20Algorithms/ActiveIntroToDiscreteMathAndAlgorithms.2.6.3.pdf)
 
 ### Optional
-- C++
-  - [A Tour of C++ (2nd Edition) (C++ In-Depth Series)](https://www.amazon.com/Tour-2nd-Depth-Bjarne-Stroustrup/dp/0134997832/ref=zg_bs_9045760011_1?_encoding=UTF8&psc=1&refRID=NBRBVSJH9JQK0Y6WFGVP)
-  - [C++ Primer (5th Edition)](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113/ref=zg_bs_9045760011_7?_encoding=UTF8&psc=1&refRID=NBRBVSJH9JQK0Y6WFGVP)
-
-- Data Structure
-  - [Data Structures and Algorithm Analysis in C++, Third Edition (Dover Books on Computer Science)](https://www.amazon.com/Structures-Algorithm-Analysis-Computer-Science/dp/048648582X/ref=sr_1_4?keywords=data+structure+c%2B%2B&qid=1569107841&s=books&sr=1-4)
+- [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) 
+- [Effective C++](https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876/ref=asc_df_0321334876/?tag=hyprod-20&linkCode=df0&hvadid=312060980065&hvpos=&hvnetw=g&hvrand=17483715919067079273&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1027615&hvtargid=pla-522244111150&psc=1)
 
