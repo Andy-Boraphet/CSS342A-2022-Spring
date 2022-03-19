@@ -90,7 +90,7 @@ The goals of this course are for students to:
 | 5/18, 5/20 | 8 | ADT(binary trees) cont.<br/>Final projects review | C++ ch {15.5} | final project 1, 2 |
 | 5/25, 5/27 | 9 | ADT(graph, topology sort)<br/>Math induction	& Propositional logic<br/>Final projects review | Math {4, 8.1}, C++ {20} | final project 1, 2  |
 | 6/1, 6/3 | 10 | Final review |  |  |
-| 6/8, 6/10 | 11 | [exam date TBD](TBD) |  |  |
+| 6/8, 6/10 | 11 | Final exam, no lecture, [exam date TBD](TBD) |  |  |
 
 ## Policy (IMPORTANT)
 All the materials are either in class or online. In-class only materials will be unavailable unless you attend class. The only exceptions are: you are terribly sick, family emergency, or academic event. In such cases, you should provide evidence (e.g., medical doctor’s note). 
