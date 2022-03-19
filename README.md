@@ -21,7 +21,7 @@ A minimum grade of 2.8 in either CSS 133, CSS 143, CSE 143, or CSS 162; and mini
 | Course Work | Grading % |
 |-------------|-----------|
 | Homeworks | 35        |
-| Quiz & in-class exercises      | 5        |
+| Quiz & in-class exercises      | 5   |
 | Midterm exam       | 20       |
 | Final projects 1 | 10 |
 | Final projects 2 | 10 |
@@ -32,3 +32,26 @@ A minimum grade of 2.8 in either CSS 133, CSS 143, CSE 143, or CSS 162; and mini
 All grades will be listed as percentages in the Canvas LMS. The conversion table below will help you determine your final grade. For example, if you earn 950 points (or 95%) you will get a 4.0. If you earn 750 points (or 75%) you will earn a 2.0.
 
 ![Image of Grading Rubric](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/images/gradingrubric.png)
+
+## Exams (quiz, midterms and final)
+
+- Possibly in-class or "take-home" style depending on Covid situation. Each will be ~1.5 hr.
+- Problems such as single-choice question, discussion, and coding
+- Midterms are incremental (covering material up to the exam date), and final exam is comprehensive (covering everything).
+- There will be reviews and examples given before midterms and final.
+- Quiz is similarly to homework except no question and discussion will be given by instructor on solution before submission. 
+- There might be in-class quiz during lecture.
+
+## Textbooks
+### Required
+- Data Abstraction & Problem Solving With C++: Walls & Mirrors, Sixth or Seventh Edition, Frank M. Carrano, Addison Wesley, 2013, ISBN-10: 0132923726, ISBN-13: 978-0132923729
+- [An Active Introduction to Discrete Mathematics and Algorithms, Charles Cusack, David Santos, GNU Free Software, 2014](https://cusack.hope.edu/Notes/Notes/Books/Active%20Introduction%20to%20Discrete%20Mathematics%20and%20Algorithms/ActiveIntroToDiscreteMathAndAlgorithms.2.6.3.pdf)
+
+### Optional
+- C++
+  - [A Tour of C++ (2nd Edition) (C++ In-Depth Series)](https://www.amazon.com/Tour-2nd-Depth-Bjarne-Stroustrup/dp/0134997832/ref=zg_bs_9045760011_1?_encoding=UTF8&psc=1&refRID=NBRBVSJH9JQK0Y6WFGVP)
+  - [C++ Primer (5th Edition)](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113/ref=zg_bs_9045760011_7?_encoding=UTF8&psc=1&refRID=NBRBVSJH9JQK0Y6WFGVP)
+
+- Data Structure
+  - [Data Structures and Algorithm Analysis in C++, Third Edition (Dover Books on Computer Science)](https://www.amazon.com/Structures-Algorithm-Analysis-Computer-Science/dp/048648582X/ref=sr_1_4?keywords=data+structure+c%2B%2B&qid=1569107841&s=books&sr=1-4)
+
