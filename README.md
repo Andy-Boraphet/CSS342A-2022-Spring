@@ -22,8 +22,8 @@ A minimum grade of 2.8 in either CSS 133, CSS 143, CSE 143, or CSS 162; and mini
 |-------------|-----------|
 | Homeworks | 35        |
 | Quiz & in-class exercises      | 5        |
-| Midterm exam       | 25       |
+| Midterm exam       | 20       |
 | Final projects 1 | 10 |
 | Final projects 2 | 10 |
-| Final exam      | 25        |
+| Final exam      | 20        |
 | Total | 100 |
