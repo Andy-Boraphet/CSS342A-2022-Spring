@@ -27,3 +27,8 @@ A minimum grade of 2.8 in either CSS 133, CSS 143, CSE 143, or CSS 162; and mini
 | Final projects 2 | 10 |
 | Final exam      | 20        |
 | Total | 100 |
+
+### Grading Rubric
+All grades will be listed as percentages in the Canvas LMS. The conversion table below will help you determine your final grade. For example, if you earn 950 points (or 95%) you will get a 4.0. If you earn 750 points (or 75%) you will earn a 2.0.
+
+![Image of Grading Rubric](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/images/gradingrubric.png)
