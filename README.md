@@ -106,18 +106,12 @@ Work is to be done independently unless directed otherwise; collaborative work i
 - In this course, we are an academic family and you betray the instructor’s and the university’s trust should you violate the honor code. This violation will be taken seriously. (See [Academic Conduct](http://www.uwb.edu/academic/policies/Academic_Conduct.xhtml)).
 - The purpose of the assignments is to help you understand deeply technical material. You may discuss the problem statement with each other and help debug, but do your own design and coding. See the student [honor code](https://www.uwb.edu/academic/policies/academic-conduct).
 - Live lectures are inherently interactive. Questions during class are encouraged. Please raise your hand to get the instructor's attention. At the instructor's discretion, answers may be tabled until the end of class if they are too far off-topic.
-- Limit computer use during class to note-taking so as to not distract or disturb your classmates or your instructor. It is highly recommended that you turn off the computer and take notes the old fashioned way. Quill pens are optional.
-  - Computer (or handheld devices) use during the lecture is limited to taking notes and lab/exercise programming. 
-  - Displaying any images or videos on your screen during the lecture is not allowed as it is distracting and disrespectful.
-  - Silence your mobile phones and limited your mobile device usage. If you need to take a call or you have an emergency, step out of the classroom.
+- Computer (or handheld devices) use during the lecture is limited to taking notes and lab/exercise programming. 
+- Displaying any images or videos on your screen during the lecture is not allowed as it is distracting and disrespectful.
+- Silence your mobile phones and limited your mobile device usage. If you need to take a call or you have an emergency, step out of the classroom.
 - Please, no whispering, chitchatting, giggling, etc., this is very distracting and disrespectful. Disruptive students will be asked to leave and you will be responsible for missing lectures.
 - If you arrive late or have to leave in the middle of class, do so quietly without causing disruption.
 - Flash photography is not permitted. Non-flash photography to capture the white-board is permitted as long as it is not disruptive or distracting.
-- Simple email questions may get a response. Complex questions are best saved for office hours.
-- Because of limited time, all assignment questions will be answered during office hours.
-- There will be no debugging of code during the class break. You can ask short questions, but without your computer.
-- Absolutely no questions after the end of the lecture, plan ahead and schedule office hours in a timely fashion.
-- No office hours on exam days or during finals week.
 
 ## Disability Accommodations 
 To request academic accommodations due to a disability, please contact Disabled Student Services (DSS) at 425.352.5307, 425.352.5303 TDD, 425.352.5455 FAX, or at dss@uwb.edu. You will need to provide documentation of your disability as part of the review process prior to receiving any accommodations (by the third week of the quarter). 
