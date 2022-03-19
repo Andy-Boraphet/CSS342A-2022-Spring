@@ -17,6 +17,11 @@ A minimum grade of 2.8 in either CSS 133, CSS 143, CSE 143, or CSS 162; and mini
 | Email                | pengdu@uw.edu ([CSS342] MUST show on subject)                |
 | Office Hours         | Discord ([use this invite to join](https://discord.gg/tQy6tZg)) |
 
+## Class Communication
+- **Canvas** for assigning tasks (homework, quizzes, and exams) and scores.
+- **Discord** for announcements, discussion forums, assignment posting, and individual grades. Choose this if in doubt.
+- **Email** barely use but will reply probably asking you to use the above two methods
+
 ### Coursework Distribution
 | Course Work | Grading % |
 |-------------|-----------|
@@ -42,13 +47,13 @@ All grades will be listed as percentages in the Canvas LMS. The conversion table
 - Quiz is similarly to homework except no question and discussion will be given by instructor on solution before submission. 
 - There might be in-class quiz during lecture.
 
-## Textbooks
+## Textbook
 - Data Abstraction & Problem Solving With C++: Walls & Mirrors, Sixth or Seventh Edition, Frank M. Carrano, Addison Wesley, 2013, ISBN-10: 0132923726, ISBN-13: 978-0132923729
 - (Free PDF) [An Active Introduction to Discrete Mathematics and Algorithms, Charles Cusack, David Santos, GNU Free Software, 2014](https://cusack.hope.edu/Notes/Notes/Books/Active%20Introduction%20to%20Discrete%20Mathematics%20and%20Algorithms/ActiveIntroToDiscreteMathAndAlgorithms.2.6.3.pdf)
 
 Here's the [full list](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/books.md) of books including optional and recommended.
 
-## Class Goals
+## Class Goal
 The goals of this course are for students to: 
 
 - Be comfortable with OOP programming and debugging in C++
