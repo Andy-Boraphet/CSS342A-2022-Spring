@@ -71,7 +71,7 @@ The goals of this course are for students to:
 
 ## Tentative Schedule
 
-- The [class schedule](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/schedule.md) is an approximate, high-level ordering of topics.
+- The [class schedule](https://docs.google.com/spreadsheets/d/1aATeA5I3Xt6FYqC1SGhUByHAw5c7bqlgY30HVGoWpuc/edit?usp=sharing) is an approximate, high-level ordering of topics.
 - Schedule is tentative and subject to change. Changes will be announced in class and/or Discrod channels.
 
 <img src="https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/images/schedule.png"
