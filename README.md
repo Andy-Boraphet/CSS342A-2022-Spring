@@ -71,12 +71,12 @@ The goals of this course are for students to:
 
 ## Tentative Schedule
 
-- The following table provides an approximate, high-level ordering of topics, not all sections in the book are covered. 
+- The [class schedule](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/schedule.md) is an approximate, high-level ordering of topics.
 - Schedule is tentative and subject to change. Changes will be announced in class and/or Discrod channels.
 
-![Image of Grading Rubric](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/images/schedule.png)
-
-[detailed schedule](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/schedule.md)
+<img src="https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/images/schedule.png"
+     alt="schedule icon"
+     width="40%" />
 
 ## Policy (IMPORTANT)
 All the materials are either in class or online. In-class only materials will be unavailable unless you attend class. The only exceptions are: you are terribly sick, family emergency, or academic event. In such cases, you should provide evidence (e.g., medical doctor’s note). 
