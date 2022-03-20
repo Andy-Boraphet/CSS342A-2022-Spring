@@ -1,4 +1,4 @@
-<img src="https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/images/342_cover.png"
+<img src="https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/images/repo_cover.png"
      alt="schedule icon"
      width="70%" />
      
