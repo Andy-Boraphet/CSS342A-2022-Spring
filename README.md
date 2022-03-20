@@ -1,6 +1,6 @@
 <img src="https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/images/repo_cover.png"
      alt="schedule icon"
-     width="70%" />
+     width="80%" />
      
 # CSS 342 Data Structures, Algorithms, and Discrete Mathematics I
 
