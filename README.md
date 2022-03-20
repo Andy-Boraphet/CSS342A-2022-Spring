@@ -1,3 +1,7 @@
+<img src="https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/images/342_cover.png"
+     alt="schedule icon"
+     width="70%" />
+     
 # CSS 342 Data Structures, Algorithms, and Discrete Mathematics I
 
 ## Official Course Info ([link](https://www.washington.edu/students/crscatb/css.html))
