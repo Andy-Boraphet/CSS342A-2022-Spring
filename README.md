@@ -2,7 +2,7 @@
 
 <img src="https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/images/repo_cover.png"
      alt="schedule icon"
-     width="80%" />
+     width="90%" />
      
 ## Official Course Info ([link](https://www.washington.edu/students/crscatb/css.html))
 Integrating mathematical principles with detailed instruction in computer programming. Explores mathematical reasoning and discrete structures through object-oriented programming. Includes algorithm analysis, basic abstract data types, and data structures. May not be repeated. 
