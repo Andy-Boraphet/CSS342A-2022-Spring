@@ -2,15 +2,15 @@
 
 ### Dates
 
-    - Assigned: 03/29/2021
-    - Due: Tuesday Apr 06 23:59:00 PST 2021
+    - Assigned: 03/30/2022
+    - Due: Tuesday Apr 05 23:59:00 PST 2022
 
 ## Goals ##
 
-- Java programming basics.
+- C++ programming basics.
 - Write your own tests.
 - Get familiar with Git and Github ([Great tuturial from Harvard's CS50](https://youtu.be/MJUJ4wbFm_A))
-- Get comfortable with the grading process.
+- Get comfortable with the grading submission process.
 
 ### Problems To Solve
 
@@ -37,13 +37,13 @@ Your code is as correct as what your tests show. Your code will be assumed to be
 
 Here is the code that your solution will be based on: 
 
-Assignment Repo: https://github.com/a-teaching-goose/sprint-1 
+Assignment Repo: https://github.com/a-teaching-goose/2022-342-sprint-1 
 
 Homework submission without using this provided code will receive 0 point.
 
 ### Work Instruction
 - Create your own account at https://github.com/ if you don't have an account.
-- Fork (means "duplicate") the instructor repo https://github.com/a-teaching-goose/sprint-1 to your own repo.
+- Fork (means "duplicate") the instructor repo https://github.com/a-teaching-goose/2022-342-sprint-1 to your own repo.
 - In the Action tab of the repo, click the green button to enable Action.
 - Open your own repo in Intellij using "Get From Version Control".
 - Create a new branch called "work" (you can pick your own name here), and switch to this new branch (automatically in Intellij).
