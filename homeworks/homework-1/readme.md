@@ -31,7 +31,7 @@ There are **THREE** problems to solve. Please find the description of the first 
 
 ### Code Correctness ###
 
-Your code is as correct as what your tests show. Your code will be assumed to be not correct unless proven otherwise by your tests. No tests, no point. 
+Your code is as correct as what the Github PR tests prove.
 
 ### Code ###
 
