@@ -71,7 +71,7 @@ The goals of this course are for students to:
 ## Lecture
 - Read the relevant textbook chapters before each class.
 - There will be live "code-along" in lecutre. Have a running dev environment ready for each lecture.
-- Lecture will be recorded to the best effort. Video, PPT slides and demo code from class will be available shortly after each lecture.
+- Lecture will be recorded to the best effort. Lecture recording, PPT slides and demo code from class will be available shortly after each lecture.
 - PPT Slides are for reference only and tentative to change even after lecture.
 - Take notes. Write down your questions in class and follow up later.
 
