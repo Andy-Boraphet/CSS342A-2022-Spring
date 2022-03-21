@@ -37,9 +37,13 @@ Your code is as correct as what the Github PR tests prove.
 
 Here is the code that your solution will be based on: 
 
-Assignment Repo: https://github.com/a-teaching-goose/2022-342-sprint-1 
+Assignment Repo: https://github.com/a-teaching-goose/2022-342-sprint-1 (Homework submission without using this provided code will receive 0 point)
 
-Homework submission without using this provided code will receive 0 point.
+General requirements (VERY IMPORTANT)
+- Do not create any new file or delete existing file in the repo. The grader bot checks for this.
+- Do not make modification to any file outside the ***src*** and ***test*** folders.
+- Do not make modification to any file that has warning "DO NOT TOUCH THIS FILE" at the top in src and test.
+
 
 ### Work Instruction
 - Create your own account at https://github.com/ if you don't have an account.
