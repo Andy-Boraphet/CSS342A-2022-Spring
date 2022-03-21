@@ -15,9 +15,9 @@ A minimum grade of 2.8 in either CSS 133, CSS 143, CSE 143, or CSS 162; and mini
 | Key Info             |                                                              |
 | -------------------- | ------------------------------------------------------------ |
 | Date & Time          | WF 5:45pm - 7:45pm                                           |
-| Lecture Location     | TBD                                                       |
+| Lecture Location     | Hybrid: UW1 building room 021 / Zoom                                                      |
 | Lecturer             | [Peng Du](https://www.linkedin.com/in/peng-du-ph-d-14b0a11b)  |
-| Grader/TA            | TBD                            |
+| Grader/TA            | Maranatha Chiu                            |
 | Email                | pengdu@uw.edu ([CSS342] MUST show on subject)                |
 | Office Hours         | Discord ([use this invite to join](https://discord.gg/tQy6tZg)) |
 
