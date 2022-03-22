@@ -19,7 +19,7 @@ A minimum grade of 2.8 in either CSS 133, CSS 143, CSE 143, or CSS 162; and mini
 | Lecturer             | [Peng Du](https://www.linkedin.com/in/peng-du-ph-d-14b0a11b)  |
 | Grader/TA            | Maranatha Chiu                            |
 | Email                | pengdu@uw.edu ([CSS342] MUST show on subject)                |
-| Office Hours         | Discord ([use this invite to join](https://discord.gg/tQy6tZg)) |
+| Office Hours         | Discord ([use this invite to join](https://discord.gg/etC5bR8nJb)) |
 
 ## Communication
 - **Canvas** for assigning tasks (homework, quizzes, and exams) and scores.
