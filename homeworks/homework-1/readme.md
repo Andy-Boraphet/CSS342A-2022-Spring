@@ -34,7 +34,8 @@ There are **THREE** problems to solve. Please find the description of the first 
 
 ### Code Correctness ###
 
-Your code is as correct as what the Github PR tests prove, and looks for the double green which means PR is good to go:
+Your code is as correct as what the Github PR tests prove, and looks for the double green check marks. It means the PR is good enough for submission. (Always look for additional improvement if time allows)
+
 <img width="934" alt="image" src="https://user-images.githubusercontent.com/252020/159424802-1b72dcc2-6c7a-4d16-9fbc-c9ad6dcf98df.png">
 
 
