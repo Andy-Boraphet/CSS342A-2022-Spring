@@ -1,84 +1,25 @@
-## (30pt) Sum Of Non-uniques
+## (30pt) Identify The Perfect Customers
 
-Given an integer array, implement the code that calculates the sum of all *non-unique* elements. The unique elements of an array are the elements that appear **exactly once** in the array.
+The purpose of this homework is to practice **TDD (Test Driven Development)**. 
 
-Example 1:
+A company called HoveringCar has a group of social media influecers to promote its products. Based on the followers of each influencer, HoveringCar can identify some potential customers to reach out to for further engagement.
 
-```
-Input: [3]
-Output: 0
-Explanation: There's only one element and it appears exactly once. So there's no non-unique element.
-```
-
-Example 2:
+In this work, we are employing a simple algorithm to identify such customers. If a customer has followed all the given influecers, then he/she is chosen as a pential customer if the age is less than or equal to 25. For example, consider the following scenario:
 
 ```
-Input: [3, 2]
-Output: 0
-Explanation: There's no non-unique element.
+Influencer x, followers { {name:a, age: 21}, {name:b, age: 23}, {name:z, age: 26} }
+Influencer y, followers { {name:b, age: 23}, {name:c, age: 31}, {name:d, age: 45}, {name:z, age: 26} }
+Influencer z, followers { {name:b, age: 23}, {name:z, age: 26} }
 ```
 
-Example 3:
+Then the common follower between influencer x, y and z, hence the potential customer, is {name:b, age: 23}.
 
-```
-Input: [2, 3, 2]
-Output: 4
-Explanation: There's one non-unique element 2, and it appeared twice so 2+2 is 4
-```
+The related OOP types are defined [here](), and the function that implements this algorithm is provided [here](). This means you do not need to implement the function, and better yet, you don't even need to look into this function to understand it. 
 
-Example 4:
+"What do I do then?" You ask.
 
-```
-Input: [2, 4, 2, 1, 4, -5, 4]
-Output: 13
-Explanation: 2 appeared twice and 4 did 3 times. 2 x 2 + 4 x 3 = 16
-```
+In this task, come up with a set of tests for the problem of identifying potential customers based on the description above, without you writing the function code. The tests you write should interrogate the ***find_customer*** function to make sure it follows the algorithm correctly.
 
+Your tests should be written [here in "unit_test_problem_3.cpp"](). 
 
-
-Write the function and as many tests can you can think of to prove your function works correctly. 
-
-
-
-### (5pt) Bonus point 
-
-How would you improve your code? Write your answer in a comment section.
-
-"Improve for what?", you ask.
-
-Well, there are many aspects code can be usually improved. To name a few. Say performance, or running time. How many loops do you have? Usually the more loops, the slower you code runs. So can it be reduced? 
-
-How many times does your code visit the entire input array? Sure it depends on inputs. What about the worst case? In this case can it be reduced?
-
-To see the time complexity, add the following test to your problem 3 test
-
-```java
-    @Test
-    public void largeArrayTest() {
-        final int largeNumber = 500000;
-        int[] input = new int[largeNumber];
-        for (int i = 0; i < input.length; i++) {
-            input[i] = i - largeNumber / 2;
-        }
-
-        int expect = 0;
-        long startTime = System.nanoTime();
-
-        long actual = Problem3.SumOfNonUnique(input);
-
-        long endTime = System.nanoTime();
-        long durationInNano = endTime - startTime;
-
-        assertEquals(expect, actual);
-
-        System.out.printf("time: %f seconds", (double) durationInNano / 1e9);
-    }
- ```
- 
- How many seconds did it take to finish? Can it be reduced?
- 
-
-Another possible improvement is code clarity. Is it hard to read? Maybe a better variable name? Some ideas? Sure. [Here](https://a-nickels-worth.blogspot.com/2016/04/a-guide-to-naming-variables.html) is a start.
-
-What about maintainability? Say if you were to add one more test case, how many lines of code do you have to change? Can it be reduced? Try to make it so that one only needs to change two lines to add a new test case.
-
+Note: Your tests should pass upon submission. If you think your test is correct but it fails, please reach out to the instructor immediately for a discussion.
