@@ -3,7 +3,7 @@
 ### Dates
 
     - Assigned: 03/30/2022
-    - Due: Tuesday Apr 05 23:59:00 PST 2022
+    - Due: Friday Apr 08 23:59:00 PST 2022
 
 ## Goals ##
 
