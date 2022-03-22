@@ -21,13 +21,12 @@ There are **THREE** problems to solve. Please find the description of the first 
 - [Problem 3](problem_3.md) (30pt)
 - Problem 4 has 10 point as following: Send me a private message in Discord. Describe the following:
   - Your full name.
-  - Your technical background. For example, What programming language do you know? Have you used Java before? If yes, on what kind of projects? What's the biggest challenge in those projects?
-  - How much do you know about data structures such as array, list, tree, graph?
-  - How much do you konw about algorithms such as sorting, searching and recursion?
-  - What do you like about programming?
-  - What do you struggle the most learning about programming?
+  - Your technical background. For example, what programming language do you know and how well? Have you used C++ before? If yes, on what kind of projects? What's the biggest challenge in those projects?
+  - How much do you know/remember about data structures such as array, list, tree, graph?
+  - How much do you konw/remember about algorithms such as sorting, searching and recursion?
+  - What do you like/dislike about programming?
+  - What do you struggle the most when learning programming?
   - Feeling of the class so far and suggestions. Is it too fast? Too slow? Lecture too long? My accent hard to understand? Need more explanation on topics? 
-  - Will you be willing to have a 15-min 1 on 1 chat over zoom sometime. Goal is to get to know each other further to help with the my teaching and your studying?
 
 ### Code Correctness ###
 
@@ -39,11 +38,10 @@ Here is the code that your solution will be based on:
 
 Assignment Repo: https://github.com/a-teaching-goose/2022-342-sprint-1 (not using this repo will result in 0 point)
 
-General requirements (VERY IMPORTANT)
+General requirements (VERY IMPORTANT):
 - Do not create any new file or delete existing file in the repo. The grader bot checks for this.
 - Do not make modification to any file outside the ***src*** and ***test*** folders.
-- Do not make modification to any file that has warning "DO NOT TOUCH THIS FILE" at the top in src and test.
-
+- Do not make modification to any file unless specificially allowed (in comments or told by the instructor).
 
 ### Work Instruction
 - Create your own account at https://github.com/ if you don't have an account.
