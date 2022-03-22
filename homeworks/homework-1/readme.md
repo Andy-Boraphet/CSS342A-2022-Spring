@@ -1,3 +1,7 @@
+<img src="images/four_seasons.jpg"
+     alt="four seasons"
+     width="65%" />
+
 ## Spring into Action
 
 ### Dates
