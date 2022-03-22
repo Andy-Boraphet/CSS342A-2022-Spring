@@ -12,7 +12,7 @@ Influencer y, followers { {name:b, age: 23}, {name:c, age: 31}, {name:d, age: 45
 Influencer z, followers { {name:b, age: 23}, {name:z, age: 26} }
 ```
 
-Then the common follower between influencer x, y and z, hence the potential customer, is {name:b, age: 23}.
+Then the common follower between influencer x, y and z, hence the potential customer, is {name:b, age: 23}. z is not one because age does not meet requirements.
 
 The related OOP types are defined [here](), and the function that implements this algorithm is provided [here](). This means you do not need to implement the function, and better yet, you don't even need to look into this function to understand it. 
 
