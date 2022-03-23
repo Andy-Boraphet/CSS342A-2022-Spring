@@ -53,7 +53,7 @@ General requirements (VERY IMPORTANT):
 - Do not make modification to any file unless specificially allowed (in comments or told by the instructor).
 
 ### Work Instruction
-Follow [this](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/homeworks/work_guide.md)
+Follow [this guide](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/homeworks/work_guide.md).
 
 ### Notes ###
 
