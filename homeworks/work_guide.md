@@ -20,7 +20,7 @@ Create your own account at https://github.com/ if you don't have an account.
 - Read after me: "Create a new branch called "work" (you can pick your own name here), and switch to this new branch (automatically in CLion)".
 Read it out because this is a very popularly missed step, and the fix is not worth your time.
 
-## Work On The Code
+## Work On The Assignment Tasks
 
 - Finish the homework in the "work" branch. Make commits and push frequently so your work is kept online safely. 
 
