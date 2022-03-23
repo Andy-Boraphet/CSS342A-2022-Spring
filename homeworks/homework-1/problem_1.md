@@ -2,7 +2,7 @@
 
 Write a function to perform binary search in an ascendingly (small to large) **sorted** integer array. 
 
-The binary search function signature is defined [here](https://github.com/a-teaching-goose/2022-342-sprint-1/blob/8d411445d67d86ffe157f1d7584c25e4f0edc0a3/src/problem_1.h#L7):
+The binary search function signature is defined [here](https://github.com/a-teaching-goose/2022-342-sprint-1/blob/main/src/problem_1.h#L7):
 
 ```c++
     static int binary_search(const int *data, int length, int target);
