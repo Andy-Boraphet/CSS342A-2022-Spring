@@ -23,4 +23,4 @@ Tests are provided, but one of the marked tests needs some additional work to pa
 
 Binary search will be discussed in class as part of the search problem. If you need help, [here](https://www.geeksforgeeks.org/binary-search/) is a good start. Note that binary search can be implemented with or without recursion. If you are comfortable with recursion already, feel free to use it. Otherwise for-loop would be just fine. In fact, which method do you think is faster? (you can answer this in your code as a comment if you want to)
 
-When the homework is done, your code should pass all the tests that come from the assignment and those your added.
+When the homework is done, your code should pass all the tests that come from with assignment.
