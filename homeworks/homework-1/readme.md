@@ -43,7 +43,7 @@ Your code is as correct as what the Github PR tests prove, and looks for the dou
 
 Here is the code that your solution will be based on: 
 
-Assignment Repo: https://github.com/a-teaching-goose/2022-342-sprint-1 (not using this repo will result in 0 point)
+Code: https://github.com/a-teaching-goose/2022-342-sprint-1 (not using this repo will result in 0 point)
 
 General requirements (VERY IMPORTANT):
 - Do not create any new file or delete existing file in the repo. The grader bot checks for this.
@@ -51,18 +51,7 @@ General requirements (VERY IMPORTANT):
 - Do not make modification to any file unless specificially allowed (in comments or told by the instructor).
 
 ### Work Instruction
-- Create your own account at https://github.com/ if you don't have an account.
-- Fork (means "duplicate") the instructor repo https://github.com/a-teaching-goose/2022-342-sprint-1 to your own repo.
-- In the Action tab of the repo, click the green button to enable Action.
-- Open your own repo in CLion using "Get From Version Control".
-- Create a new branch called "work" (you can pick your own name here), and switch to this new branch (automatically in CLion).
-- Finish the homework in the "work" branch. Make commits and push frequently so your work is kept online safely. The first time when you push online, CLion will ask you to log in with token or OATH. Token is the easiest way. [Here's an instruction](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token). This will also be demo'd in lecture.
-- Once the homework is ready to for submission, head to your own repo on Github and create a pull request from your "work" branch towards ***your master branch***. NOTE: DO NOT CREATE THE PULL REQUEST TOWARDS THE INSTRUCTOR'S REPO. TEST WILL FAIL IF YOU DO.
-- Submit the url of your pull request in Canvas.
-- DO NOT make new code commits after submission deadline. Violation will be treated as late homework and zero point will be given.
-- Once grading is done, teacher will mark the PR as "approved" and grade will be published to Canvas.
-
-A demo of this process can be found in the lecture recording of lecture of week 1.
+Follow [this](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/homeworks/work_guide.md)
 
 ### Notes ###
 
