@@ -24,4 +24,4 @@ In this task, come up with a set of tests for the problem of identifying potenti
 
 Your tests should be written [here in "unit_test_problem_3.cpp"](https://github.com/a-teaching-goose/2022-342-sprint-1/blob/main/test/unit_test_problem_3.cpp). 
 
-Note: Your tests should pass upon submission. If you think your test is correct but it fails, please reach out to the instructor immediately for a discussion.
+Note: Your tests should pass upon submission. If you think your test is correct but it fails, please reach out to the instructor immediately for a discussion. Peng has tested it too but who knows, he might have missed something.
