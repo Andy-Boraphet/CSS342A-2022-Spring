@@ -73,5 +73,5 @@ Plagarism will not be tolerated and will receive **ZERO** point, this includes (
 
 Offense will be reported to the department.
 
-I will not be able to catch all the cheats and frankly it could hurt nobody but yourself. Here's some reason why [you shouldn't cheat](https://www.youtube.com/watch?v=hMloyp6NI4E)
+I will not be able to catch all the cheats and frankly it could hurt nobody but yourself. Here's some reason why [you shouldn't cheat](https://www.youtube.com/watch?v=hMloyp6NI4E).
 
