@@ -6,7 +6,7 @@ The purpose of this homework is to practice **TDD (Test Driven Development)**.
 
 A company called HoveringCar has a group of social media influecers to promote its products. Based on the followers of each influencer, HoveringCar can identify some potential customers to reach out to for further engagement.
 
-In this work, we are employing a simple algorithm to identify such customers. If a customer has followed all the given influecers, then he/she is chosen as a pential customer if the age is less than or equal to 25. For example, consider the following scenario:
+In this work, we are employing a simple algorithm to identify such customers. If a certain customer (identified by his/her name and age) has followed all the given influecers, then he/she is chosen as a pential customer if the age is less than or equal to 25. For example, consider the following scenario:
 
 ```
 Influencer x, followers { {name:a, age: 21}, {name:b, age: 23}, {name:z, age: 26} }
