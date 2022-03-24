@@ -1,3 +1,7 @@
+## Screen Recording
+
+[Here](https://youtu.be/kpeFL7fLs-s) is a screen recording of the process described below for Mac OS.
+
 ## Prerequisite  
 
 Create your own account at https://github.com/ if you don't have an account.
