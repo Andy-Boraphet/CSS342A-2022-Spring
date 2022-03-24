@@ -25,7 +25,7 @@ CMake creates lots of temp files so it's a good idea to use a build folder. All 
 ```bash
 ubuntu@ip-172-31-46-44:~/342test$ mkdir build
 ubuntu@ip-172-31-46-44:~/342test$ cd build
-ubuntu@ip-172-31-46-44:~/342test/build$ cmake -DCMAKE_BUILD_TYPE=Debug ..
+ubuntu@ip-172-31-46-44:~/342test/build$ cmake -DCMAKE_BUILD_TYPE=Debug -DRUN_COV=true ..
 ```
 The "-DCMAKE_BUILD_TYPE=Debug" flag is for coverage test and can be ommited for other build targets.
 
