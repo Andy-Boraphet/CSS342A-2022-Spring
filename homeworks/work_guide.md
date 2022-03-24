@@ -44,6 +44,6 @@ Read it out because this is a very popularly missed step, and the fix is not wor
 
 ## After Due Date
 
-- DO NOT make new code commits after submission deadline. Violation will be treated as late homework and zero point will be given.
+- DO NOT make new code commits after submission deadline. If you do, your PR check will fail because one of the validation is about date violation. 
 
 - Once grading is done, teacher will mark the PR as "approved" and grade will be published to Canvas.
