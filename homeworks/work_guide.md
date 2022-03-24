@@ -2,6 +2,10 @@
 
 [Here](https://youtu.be/kpeFL7fLs-s) is a screen recording of the process described below for Mac OS.
 
+## Checklist
+
+[Here](https://github.com/a-teaching-goose/CSS342A-2022-Spring/blob/main/homeworks/submission_checklist.md) is a checklist for the process to be use during work. 
+
 ## Prerequisite  
 
 Create your own account at https://github.com/ if you don't have an account.
