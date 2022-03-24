@@ -6,15 +6,10 @@
 
 - Create a new branch, and switch to it
 
-- Work, commit, rinse and repeat
-
-- Push commits to your repo once in a while
+- Work, commit, push, and repeat till all work is done
 
 - Create a Pull Request (from your ‘work’ branch to your ‘main’ branch)
 
-- Verify all checks pass
+- Verify Nop's tests pass
 
 - Submit Pull Request url in Canvas
-
-
-[Here](https://youtu.be/L2VAoGoAT5w?t=4532) is a demo.
