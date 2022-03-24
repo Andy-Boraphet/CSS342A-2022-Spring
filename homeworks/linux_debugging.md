@@ -13,9 +13,9 @@ git clone https://github.com/a-teaching-goose/2022-342-sprint-1 #example here, p
 ```
 - Install required dependencies
 ```bash
-ubuntu@ip-172-31-46-44:~/342test$ pwd
-/home/ubuntu/342test
-ubuntu@ip-172-31-46-44:~/342test$ ./.github/workflows/install_dependencies.sh
+ubuntu@ip-172-31-46-44:~/2022-342-sprint-1$ pwd
+/home/ubuntu/2022-342-sprint-1
+ubuntu@ip-172-31-46-44:~/2022-342-sprint-1$ ./.github/workflows/install_dependencies.sh
 ```
 
 **Note: Pay attention to which folder each command below is run**
@@ -23,9 +23,9 @@ ubuntu@ip-172-31-46-44:~/342test$ ./.github/workflows/install_dependencies.sh
 ### Create Makefiles
 CMake creates lots of temp files so it's a good idea to use a build folder. All build is done in the build folder.
 ```bash
-ubuntu@ip-172-31-46-44:~/342test$ mkdir build
-ubuntu@ip-172-31-46-44:~/342test$ cd build
-ubuntu@ip-172-31-46-44:~/342test/build$ cmake -DCMAKE_BUILD_TYPE=Debug -DRUN_COV=true ..
+ubuntu@ip-172-31-46-44:~/2022-342-sprint-1$ mkdir build
+ubuntu@ip-172-31-46-44:~/2022-342-sprint-1$ cd build
+ubuntu@ip-172-31-46-44:~/2022-342-sprint-1/build$ cmake -DCMAKE_BUILD_TYPE=Debug -DRUN_COV=true ..
 ```
 The "-DCMAKE_BUILD_TYPE=Debug" flag is for coverage test and can be ommited for other build targets.
 
@@ -34,7 +34,7 @@ The "-DCMAKE_BUILD_TYPE=Debug" flag is for coverage test and can be ommited for 
 Before running any cmake targets, build all the source code (your code, dependencies, etc.)
 
 ```bash
-ubuntu@ip-172-31-19-254:~/342test/build$ make -j4
+ubuntu@ip-172-31-19-254:~/2022-342-sprint-1/build$ make -j4
 ```
 
 The optional flag "-j4" is to ask Make to build with 4 threads [in parallel](https://www.gnu.org/software/make/manual/html_node/Parallel.html). 
@@ -44,14 +44,14 @@ Pretty cool eh?
 There are a few build targets in this project:
 
 #### Unit Test 
-The unit test build target is [here](https://github.com/a-teaching-goose/342test/blob/03b55613693da0cee99191c10069dcc9faecef59/test/CMakeLists.txt#L1)
+The unit test build target is [here](https://github.com/a-teaching-goose/2022-342-sprint-1/blob/03b55613693da0cee99191c10069dcc9faecef59/test/CMakeLists.txt#L1)
 
-This is defined as a custom target [here](https://github.com/a-teaching-goose/342test/blob/fd3a94334df27a9e93c5c78f1340222312f87ffb/CMakeLists.txt#L47)
+This is defined as a custom target [here](https://github.com/a-teaching-goose/2022-342-sprint-1/blob/fd3a94334df27a9e93c5c78f1340222312f87ffb/CMakeLists.txt#L47)
 
 To run:
 
 ```bash
-ubuntu@ip-172-31-46-44:~/342test/build$ make function_tests
+ubuntu@ip-172-31-46-44:~/2022-342-sprint-1/build$ make function_tests
 ```
 
 This runs targets that end in '_test'.
@@ -60,38 +60,38 @@ This runs targets that end in '_test'.
 
 This is where you can play with things around. 
 
-The playground build target in [here](https://github.com/a-teaching-goose/342test/blob/fd3a94334df27a9e93c5c78f1340222312f87ffb/src/CMakeLists.txt#L3)
+The playground build target in [here](https://github.com/a-teaching-goose/2022-342-sprint-1/blob/fd3a94334df27a9e93c5c78f1340222312f87ffb/src/CMakeLists.txt#L3)
 
 This can be run by
 ```bash
-ubuntu@ip-172-31-46-44:~/342test/build$ ../bin/css342_homework
+ubuntu@ip-172-31-46-44:~/2022-342-sprint-1/build$ ../bin/css342_homework
 ```
 
 #### Memory Check
 
-The memory check build target is [here](https://github.com/a-teaching-goose/342test/blob/fd3a94334df27a9e93c5c78f1340222312f87ffb/CMakeLists.txt#L48)
+The memory check build target is [here](https://github.com/a-teaching-goose/2022-342-sprint-1/blob/fd3a94334df27a9e93c5c78f1340222312f87ffb/CMakeLists.txt#L48)
 
 To run the target:
 ```bash
-ubuntu@ip-172-31-46-44:~/342test/build$ make mem_tests
+ubuntu@ip-172-31-46-44:~/2022-342-sprint-1/build$ make mem_tests
 ```
 
 A script is provided to run the target and perform checks:
 ```bash
-ubuntu@ip-172-31-46-44:~/342test/build$ ../.github/workflows/memcheck.sh
+ubuntu@ip-172-31-46-44:~/2022-342-sprint-1/build$ ../.github/workflows/memcheck.sh
 ```
 
 Note: memcheck.sh contains "make mem_tests" already so only this script is needed to check for memory issue (e.g. leaks).
 
 #### Code Coverage
 
-The code coverage target is defined [here](https://github.com/a-teaching-goose/342test/blob/fd3a94334df27a9e93c5c78f1340222312f87ffb/CMakeLists.txt#L58)
+The code coverage target is defined [here](https://github.com/a-teaching-goose/2022-342-sprint-1/blob/fd3a94334df27a9e93c5c78f1340222312f87ffb/CMakeLists.txt#L58)
 
 Note: this is only for Linux environment.
 
 To run the target:
 ```bash
-ubuntu@ip-172-31-46-44:~/342test/build$ make coverage_check -j4 |tee /tmp/342_coverage_check.out
+ubuntu@ip-172-31-46-44:~/2022-342-sprint-1/build$ make coverage_check -j4 |tee /tmp/342_coverage_check.out
 ```
 
 Here "tee" is used to log the output of make to */tmp/342_coverage_check.out*.
@@ -99,7 +99,7 @@ Here "tee" is used to log the output of make to */tmp/342_coverage_check.out*.
 There are plenty of output so a script is provided to verifies coverage against pre-defined coverage bars:
 
 ``` bash
-ubuntu@ip-172-31-46-44:~/342test/build$ ../.github/workflows/coverage_check.sh
+ubuntu@ip-172-31-46-44:~/2022-342-sprint-1/build$ ../.github/workflows/coverage_check.sh
 ```
 
 Note: coverage_check.sh **ONLY** validates the coverage result against required bars. The actually coverage numbers are generated by "make coverage_check". This is a different situation from mem check.
@@ -109,7 +109,7 @@ Note: coverage_check.sh **ONLY** validates the coverage result against required 
 Once coverage target is run, you can start a webserver to see the actual coverage in code
 
 ```
-ubuntu@ip-172-31-19-254:~/342test/build$ ../.github/workflows/host_coverage_server.sh
+ubuntu@ip-172-31-19-254:~/2022-342-sprint-1/build$ ../.github/workflows/host_coverage_server.sh
 ```
 
 This opens up a tiny webserver for the coverage result. For this to work, you might need to add "allow HTTP" in the security group of the VM. [Here is how to do it for AWS](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html) 
