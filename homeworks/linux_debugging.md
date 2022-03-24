@@ -9,7 +9,7 @@ This document provides info on how to run some dev related scripts. These exact 
 - OS: ubuntu-18.04
 - Clone the repo
 ```bash
-git clone https://github.com/a-teaching-goose/2022-342-sprint-1 (example here, put the repo you are working on)
+git clone https://github.com/a-teaching-goose/2022-342-sprint-1 #example here, put the repo you are working on
 ```
 - Install required dependencies
 ```bash
