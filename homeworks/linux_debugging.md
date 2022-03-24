@@ -1,3 +1,7 @@
+## Screen Recording
+
+[Here]() is a screen recording of the process described below.
+
 ## Local Tests Using Github Bot Scripts
 This document provides info on how to run some dev related scripts. These exact scripts are run as part of the GitHub workflow during homework submission. There are other scripts not listed here but those are for submission check itself.
 
