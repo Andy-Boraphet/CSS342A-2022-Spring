@@ -66,7 +66,7 @@ The goals of this course are for students to:
 - Excise and reinforce the knowledge about fundamental data structures and algorithms, and as a result improve problem solving skills.
 - Adopt the "clean code" (e.g. [this](https://youtu.be/AeWbJ5LIFNg) and [this too](https://youtu.be/4F72VULWFvc)) mindset via the practice of TDD ([Test Driven Development](https://youtu.be/d1EAyR_NCOA)).
 - Practice and adopt the use of source control system.
-- Be exposed to IT-industry popular development tools such as CMake, CLion, Git/Github/CICD, Vim, cloud and virtual machine, CICD.
+- Be exposed to IT-industry popular development tools such as CMake, CLion, Git/Github/CICD, Vim, cloud computing and virtual machine, CICD.
 
 ## Lecture
 - Read the relevant textbook chapters before each class.
