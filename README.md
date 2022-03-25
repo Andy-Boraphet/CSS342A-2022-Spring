@@ -86,7 +86,7 @@ The goals of this course are for students to:
      
 |  Date | Week | Topics | Chapters | Homework |
 | --- | --- | --- | :--- | --- |
-| 3/30, 4/1 | 1 | Course intro, dev setup<br/>C++ basics (function, loop, ifs, pointer, reference)<br/>TDD basics, (read [this](https://www.youtube.com/watch?v=iUD55KscxsA) before class 2)<br/>Homework submission walthrough | C++ ch {1}<br/>ch interlue {2}<br/>apendx A & B | [1](https://github.com/a-teaching-goose/CSS342A-2022-Spring/tree/main/homeworks/homework-1) |
+| 3/30, 4/1 | 1 | Course intro, dev setup<br/>C++ basics (function, loop, ifs, pointer, reference)<br/>TDD basics, (watch [this](https://www.youtube.com/watch?v=iUD55KscxsA) before class 2)<br/>Homework submission walthrough | C++ ch {1}<br/>ch interlue {2}<br/>apendx A & B | [1](https://github.com/a-teaching-goose/CSS342A-2022-Spring/tree/main/homeworks/homework-1) |
 | 4/6, 8 | 2 | C++ (OOP) <br/>Makefile, CMake<br/>Debugging<br/>Unit Testing<br/>  | C++ ch interlude {1, 5, 6}<br/>ch {3, 4 & 11} |  |
 | 4/13, 15 | 3 | OOP, ADT (array, array list) | C++ ch {8, 9, 12} | 2 |
 | 4/20, 22 | 4 | OOP, ADT (linked list, iterator)<br/>STL intro | C++ ch interlude {8}<br/>ch {6, 7, 13, 14} | 3 |
