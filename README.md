@@ -93,11 +93,12 @@ The goals of this course are for students to:
 | 4/27, 29 | 5 | ADT (map)<br/>Recursion<br/>Dependency Injection<br/> | C++ ch {18} |  |
 | ***5/4***, 6 | 6 | ***Midterm on 5/4***<br>Special topic: A tale of two linkedlist reversals<br>Recursion (back tracking)<br> | C++ ch {2, 5.3, 6, 13} |  |
 | 5/11, 13 | 7 | ADT(binary trees)<br/>Sorting & complexity analysis<br/>Final projects review | C++ ch {15} |   |
-| ***5/12*** | 7 | ***Last day to withdraw*** |  |   |
 | 5/18, 20 | 8 | ADT(binary trees) cont.<br/>Final projects review | C++ ch {15.5} |  |
 | 5/25, 27 | 9 | ADT(graph, topology sort)<br/>Math induction	& Propositional logic<br/>Final projects review | Math {4, 8.1}, C++ {20} |   |
 | 6/1, 3 | 10 | Final review |  |  |
 | ***6/8*** | 11 | ***Final exam on 6/8, Wednesday, no lecture*** |  |  |
+
+[Registration deadlines for class add, drop, withdraw...](https://www.uwb.edu/academic-calendar/2021-2022-academic-calendar/registration-2021-2022)
 
 ## Policy (IMPORTANT)
 All the materials are either in class or online. In-class only materials will be unavailable unless you attend class. The only exceptions are: you are terribly sick, family emergency, or academic event. In such cases, you should provide evidence (e.g., medical doctor’s note). 
