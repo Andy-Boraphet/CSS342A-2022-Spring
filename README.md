@@ -46,7 +46,7 @@ All grades will be listed as percentages in the Canvas LMS. The conversion table
 
 ## Exams (quiz, midterms and final)
 
-- Possibly in-class or "take-home" style depending on Covid situation. Each will be ~1.5 hr.
+- Possibly in-class or "take-home" style depending on Covid situation. Each will be 1.5 hr to 2 hrs.
 - Problems such as single-choice question, discussion, and coding
 - Midterms are incremental (covering material up to the exam date), and final exam is comprehensive (covering everything).
 - There will be reviews and examples given before midterms and final.
