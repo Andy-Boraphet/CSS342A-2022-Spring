@@ -43,12 +43,22 @@ Either MacOS or Windows, the following softwares need to be installed:
  
 For **Mac:** 
 
+CMake:
+
 <img width="70%" alt="image" src="https://user-images.githubusercontent.com/68986408/159604676-abaf5e56-6e5a-4c9f-afcd-a569ada22a82.png">
+
+Compilers:
+
+<img width="70%" alt="image" src="https://user-images.githubusercontent.com/252020/160519901-09f32f55-d8ad-4028-8482-3f24a3dd91ea.png">
 
 
 For **Windows:**
 
+CMake:
+
 <img width="70%" alt="image" src="https://user-images.githubusercontent.com/252020/160517403-60cd3213-be93-4c3d-aa76-0bc7bf16d9e3.png">
+
+Compilers:
 
 <img width="70%" alt="image" src="https://user-images.githubusercontent.com/252020/160517570-4c2be64f-72eb-4c38-aee3-401ff257872b.png">
 
