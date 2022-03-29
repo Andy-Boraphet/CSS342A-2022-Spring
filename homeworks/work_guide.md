@@ -10,6 +10,18 @@
 
 Create your own account at https://github.com/ if you don't have an account.
 
+## Softwares
+
+Either MacOS or Windows, the following softwares need to be installed:
+
+- CLion
+- [Git](https://git-scm.com/downloads)
+- Compilers
+  - If you have **MacOS**, [XCode](https://developer.apple.com/xcode/)
+  - else if **Windows** [MingGW](https://www.mingw-w64.org/downloads/#mingw-builds) for compilers
+  - else, talk to the instructor
+
+
 ## Fork The Repo
 
 - Fork (means "duplicate") the instructor repo https://github.com/a-teaching-goose/2022-342-sprint-1 to your own account.
