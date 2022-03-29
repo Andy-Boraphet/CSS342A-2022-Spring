@@ -1,3 +1,9 @@
+## Wow, So Many Steps!
+
+It may seem tedious at the beginning, but after a few homeworks these will become muscle memories. This process is following a similar process how people work with real-life projects, so learning it will help you in a very long run.
+
+You'll have at least 2 weeks to focus on getting comfortable with this. Take your time. Be patient.
+
 ## Screen Recording
 
 [Here](https://youtu.be/kpeFL7fLs-s) is a screen recording of the process described below for Mac OS.
