@@ -9,9 +9,9 @@ A company called HoveringCar has a group of social media influecers to promote i
 In this work, we are employing a simple algorithm to identify such customers. If a certain customer (identified by his/her name and age) has followed all the given influecers, then he/she is chosen as a pential customer if the age is less than or equal to 25. For example, consider the following scenario:
 
 ```
-Influencer x, followers { {name:a, age: 21}, {name:b, age: 23}, {name:z, age: 26} }
-Influencer y, followers { {name:b, age: 23}, {name:c, age: 31}, {name:d, age: 45}, {name:z, age: 26} }
-Influencer z, followers { {name:b, age: 23}, {name:z, age: 26} }
+Influencer x, followers { {name:a, age: 21}, {name:b, age: 23}, {name:m, age: 26} }
+Influencer y, followers { {name:b, age: 23}, {name:c, age: 31}, {name:d, age: 45}, {name:m, age: 26} }
+Influencer z, followers { {name:b, age: 23}, {name:m, age: 26} }
 ```
 
 Then the common follower between influencer x, y and z, hence the potential customer, is {name:b, age: 23}. z is not one because age does not meet requirements.
