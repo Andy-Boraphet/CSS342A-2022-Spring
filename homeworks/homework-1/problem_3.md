@@ -16,6 +16,8 @@ Influencer z, followers { {name:b, age: 23}, {name:m, age: 26} }
 
 Then the common follower between influencer x, y and z, hence the potential customer, is {name:b, age: 23}. z is not one because age does not meet requirements.
 
+**Note:** for simplicity, assume no overlap between followers and influencers. 
+
 The related OOP classes are defined [here](https://github.com/a-teaching-goose/2022-342-sprint-1/blob/main/src/problem_3.h), and the function that implements this algorithm is provided [here](https://github.com/a-teaching-goose/2022-342-sprint-1/blob/8d411445d67d86ffe157f1d7584c25e4f0edc0a3/src/problem_3.cpp#L12). This means you do not need to implement the function, and better yet, you don't even need to look into this function to understand it. 
 
 ### The Task
