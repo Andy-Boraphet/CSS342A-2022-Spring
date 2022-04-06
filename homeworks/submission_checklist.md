@@ -10,4 +10,4 @@
 
 ### Submission Checklist
 
-<img width="734" alt="image" src="https://user-images.githubusercontent.com/252020/162034101-e7566871-8e28-404a-ae30-14b3599662f5.png">
+<img width="743" alt="image" src="https://user-images.githubusercontent.com/252020/162034851-87758acd-363f-43ac-943c-11e901720867.png">
