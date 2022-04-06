@@ -1,15 +1,13 @@
-- Fork
+## Checklists for homework
 
-- Enable Action in your repo
+### Before Coding Checklist
 
-- Clone from your repo [in CLion, from cmd or other IDE if you can make things work]
+<img width="628" alt="image" src="https://user-images.githubusercontent.com/252020/162034307-6325f7f4-861b-4aa7-a938-4f1137d31b49.png">
 
-- Create a new branch, and switch to it
+### Coding Checklist
 
-- Work, commit, push, and repeat till all work is done
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/252020/162034216-4bd517a9-6baa-42e7-9ba4-3c7bc118ca5f.png">
 
-- Create a Pull Request (from your ‘work’ branch to your ‘main’ branch)
+### Submission Checklist
 
-- Verify Nop's tests pass
-
-- Submit Pull Request url in Canvas
+<img width="734" alt="image" src="https://user-images.githubusercontent.com/252020/162034101-e7566871-8e28-404a-ae30-14b3599662f5.png">
