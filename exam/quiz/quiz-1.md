@@ -2,6 +2,7 @@
 
 ```
 Due: Apr 13 at 11:59am (noon)
+Submission: text file (txt, pdf, word) in Canvas
 ```
 
 ### Task 1 (5pt)
