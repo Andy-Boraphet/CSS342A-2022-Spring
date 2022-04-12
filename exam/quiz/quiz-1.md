@@ -119,4 +119,4 @@ int main(int argc, char **argv) {
 }
 ```
 
-What problem do you see in his code (5pt)? And how would you help him fix it (5pt)?
+What problem do you see in his code (5pt)? And how would you fix it (5pt)?
