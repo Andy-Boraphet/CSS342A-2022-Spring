@@ -67,7 +67,7 @@ After running this section, the value of **a** is **-3**. Explain how variable *
 
 ### Task 4 (5pt)
 
-Given the following Laptop Class
+Given the following Laptop class
 
 ```c++
 class Laptop {
