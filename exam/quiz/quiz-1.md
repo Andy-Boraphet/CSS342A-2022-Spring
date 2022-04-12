@@ -54,11 +54,11 @@ int &a = b;
 int &d = a;
 a++;  
 c -= 2;
-a = c;  // (here)
+a = c;  // here
 d = d + 1;
 ```
 
-What does the line (here), shown below, do? (5pt)
+What does the line with the comment "here", also shown below, do? (5pt)
 ```c++
 a = c;
 ```
