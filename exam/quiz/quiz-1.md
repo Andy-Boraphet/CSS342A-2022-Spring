@@ -63,9 +63,7 @@ What does the line with the comment "here", also shown below, do? (5pt)
 a = c;
 ```
 
-After running this section, the value of **a** is **-3**. Explain why (5pt)
-
-
+After running this section, the value of **a** is **-3**. Explain how variable **a** goes from its initial value 10 to -3. (5pt)
 
 ### Task 4 (5pt)
 
