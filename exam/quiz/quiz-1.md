@@ -109,7 +109,7 @@ Your classmate Jimmy is complaining the following code "doesn't work". He's tryi
 Your time to shine with your C++ knowledge! 
 
 ```c++
-void max(int &a, int &b) {
+int max(int &a, int &b) {
         return (a>=b) ? a : b;
 }
 
