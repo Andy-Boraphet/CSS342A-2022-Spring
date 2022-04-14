@@ -30,9 +30,9 @@ There are a few distinct features of this task
 
 - The calculator we are writing is based on [this calculator](https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator). Use it to help understand how compound interest works. Lots of our test cases are generated using this calculator. See [this](problem_1_result_comparison.md) for a comparison between the web calculator and our use cases.
 
-- All tests are given. This serves as validation, but more importantly, use it as a *manual* to figure out how the code should work
+- All tests are given. This serves as validation, but more importantly, use it as a *manual* to figure out how the code should work.
 
-- There's only one function for you to write [here](https://github.com/a-teaching-goose/2022-342-sprint-2/blob/ef3c29a4dead1935f3424a9b7b8fd8eff5396fca/src/problem_1.cpp#L4)
+- There's only one function for you to write [here](https://github.com/a-teaching-goose/2022-342-sprint-2/blob/ef3c29a4dead1935f3424a9b7b8fd8eff5396fca/src/problem_1.cpp#L4).
 
 - Computation is done in floating point number, so *round-off error* is an issue. See [this](https://en.wikipedia.org/wiki/Round-off_error) for an intro. 
 
