@@ -20,7 +20,7 @@ For example, **List** is a very commonly used data type. Similar to array, a lis
 
 And [here](https://github.com/a-teaching-goose/2022-342-sprint-2/blob/7cecf4283222ba282eaa9aee8123a177b62d0c8f/src/problem_2.h#L8)'s an C++ interface that defines a List ADT:
 
-<img width="40%" alt="image" src="https://user-images.githubusercontent.com/252020/163449901-0b752cac-642b-4ce9-9398-9364b3c81b0f.png">
+<img width="30%" alt="image" src="https://user-images.githubusercontent.com/252020/163449901-0b752cac-642b-4ce9-9398-9364b3c81b0f.png">
 
 One thing to note: **There's no mentioning of how data is stored in a List. This is up to specific implementation of a List to decide.**
 
