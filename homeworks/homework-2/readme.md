@@ -1,8 +1,7 @@
-<img src="images/four_seasons.jpeg"
-     alt="four seasons"
+<img src="images/compound_interest.png"
      width="65%" />
 
-## Spring into Action
+## Take An Interest
 
 ### Dates
 
@@ -11,10 +10,10 @@
 
 ## Goals ##
 
-- C++ programming basics, working with floating point number
-- C++ OOP
-- Write your own tests.
-- Get comfortable with the grading submission process.
+- C++: programming basics, OOP
+- C++: working with floating point number
+- Use given unit tests as instruction manual
+- Get comfortable with the grading submission process
 
 ### Problems To Solve
 
