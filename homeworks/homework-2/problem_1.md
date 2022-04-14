@@ -36,6 +36,10 @@ There are a few distinct features of this task
 
 - Computation is done in floating point number, so *round-off error* is an issue. See [this](https://en.wikipedia.org/wiki/Round-off_error) for an intro. 
 
-### Extra Credit (5pt)
+### Extra Credit 1 (5pt)
 
 Write a paragraph in a block of comment in problem_1.cpp describing how you would apply the effect of compound interest to your life in a good way.
+
+### Extra Credit 2 (5pt)
+
+Add a unit test to show how you would apply the effect of compound interest financially.
