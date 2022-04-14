@@ -36,4 +36,4 @@ There are a few distinct features of this task
 
 ### Extra Credit (5pt)
 
-Write a paragraph in a block of comment in problem_1.cpp describing how you would want to apply the effect of compound interest to your life.
+Write a paragraph in a block of comment in problem_1.cpp describing how you would apply the effect of compound interest to your life in a good way.
