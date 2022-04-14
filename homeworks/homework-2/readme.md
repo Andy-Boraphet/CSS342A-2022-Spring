@@ -19,7 +19,7 @@
 
 There are **TWO** problems to solve. Please find the description of the first 2 problem in their own page:
 
-- [Problem 1](problem_1.md) (40pt)
+- [Problem 1](problem_1.md) (50pt + 5 Extra Credit)
 - [Problem 2](problem_2.md) (50pt)
 
 ### Code Repo ###
