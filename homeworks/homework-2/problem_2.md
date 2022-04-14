@@ -22,7 +22,7 @@ And [here](https://github.com/a-teaching-goose/2022-342-sprint-2/blob/7cecf42832
 
 <img width="30%" alt="image" src="https://user-images.githubusercontent.com/252020/163449901-0b752cac-642b-4ce9-9398-9364b3c81b0f.png">
 
-One thing to note: **There's no mentioning of how data is stored in a List. This is up to specific implementation of a List to decide.**
+One thing to note: **There's no mentioning of the type of the element, and how data is stored in a List. This is up to specific implementation of a List to decide.**
 
 ### The Task
 
