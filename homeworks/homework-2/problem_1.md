@@ -24,7 +24,7 @@ So, let's learn this to stay on the positive side of it, and now.
 
 ### The Task (50pt)
 
-The task of this home is to complete a compound interest simulator.
+The task of this home is to complete a compound interest simulator. **Do not use any math library**.
 
 There are a few distinct features of this task
 
