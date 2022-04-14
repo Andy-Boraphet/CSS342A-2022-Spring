@@ -26,7 +26,7 @@ One thing to note: **There's no mentioning of how data is stored in a List. This
 
 ### The Task
 
-The task here is to implement a List that stores data in an array. Call it "ArrayList". The name may sound familiar if you've written in Java before because there's an [ArrayList ADT in Java](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
+The task here is to implement a List that stores data in an array. Call it "ArrayList". The name may sound familiar if you've written in Java before because there's an [ArrayList ADT in Java](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html). Similar concepts.
 
 All the functions to be completed is in [src/problem_2.cpp](https://github.com/a-teaching-goose/2022-342-sprint-2/blob/main/src/problem_2.cpp)
 
