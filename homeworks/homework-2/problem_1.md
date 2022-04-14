@@ -42,4 +42,4 @@ Write a paragraph in a block of comment in problem_1.cpp describing how you woul
 
 ### Extra Credit 2 (5pt)
 
-Add a unit test to show how you would apply the effect of compound interest financially.
+Add a new unit test in unit_test_problem_1.cpp to show how you would apply the effect of compound interest financially, but **DO NOT CHANGE OR REMOVE EXISTING TESTS**
