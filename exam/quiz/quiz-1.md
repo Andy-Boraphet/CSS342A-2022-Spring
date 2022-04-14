@@ -1,7 +1,7 @@
 ## 2022 UWB CSS 342(A) Quiz-1
 
 ```
-Due: Apr 13 at 11:59am (noon)
+Due: Apr 14 at 10:00am (noon)
 Submission: text file (txt, pdf, word) in Canvas
 ```
 
