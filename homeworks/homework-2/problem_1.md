@@ -16,6 +16,8 @@ And here's the definition from [Wikipedia](https://en.wikipedia.org/wiki/Compoun
 Compound interest is the addition of interest to the principal sum of a loan or deposit, or in other words, interest on interest. It is the result of reinvesting interest, rather than paying it out, so that interest in the next period is then earned on the principal sum plus previously accumulated interest.
 `
 
+Note: Compound interest is a general kind of effect that applies to more aspects than finance. We ain't just talking about money here.
+
 In simple term, compound interest is about **a repeated small step produces acceleratingly large result over time**. But be aware that this can manifest as angel or evil, meaning it can be really good or really bad for you. There are numerous ways to benefit or suffer from the effect of compound interest, and a larger issue is that many people learn this too late :(
 
 So, let's learn this to stay on the positive side of it, and now.
