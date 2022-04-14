@@ -1,7 +1,7 @@
 <img src="images/compound_interest.png"
      width="65%" />
 
-## Take An Interest
+## "Take An Interest"
 
 ### Dates
 
