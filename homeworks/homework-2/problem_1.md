@@ -1,7 +1,7 @@
 <img src="images/small_step.png"
      width="50%" />
 
-## (40pt) Compound Interest 
+## (50pt) Compound Interest 
 
 ### The Background
 `
@@ -20,7 +20,7 @@ In simple term, compound interest is about **a repeated small step produces acce
 
 So, let's learn this to stay on the positive side of it, and now.
 
-### The Task (40pt)
+### The Task (50pt)
 
 The task of this home is to complete a compound interest simulator.
 
