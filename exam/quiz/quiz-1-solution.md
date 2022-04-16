@@ -25,6 +25,14 @@ int main(int argc, char **argv) {
 
 Please explain the memory usage problem in this code, and how you would fix it.
 
+Answer:
+"Dangling pointer". ptr returned from foo_ret_stack_ptr is pointing to invalid address. To fix, use new in the foo_ret_stack_ptr function and return the pointer.
+
+```c++
+    int *array = new int[2]{12, 34};
+    return array;
+```
+
 
 ### Task 2 (10pt)
 
