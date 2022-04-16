@@ -1,10 +1,10 @@
 ## 2022 UWB CSS 342(A) Quiz-1
 
-```
+### Anaswer In Code
 Solution code can be found [here](https://github.com/a-teaching-goose/2022-342-code-along/tree/quiz-1)
 
 Open it in CLion and you can run it.
-```
+
 
 ### Task 1 (5pt)
 
