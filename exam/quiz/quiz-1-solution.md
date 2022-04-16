@@ -57,7 +57,7 @@ What are all the values in array *arr3* after running this section? (5pt)
 Does this code have any memory problem? And if yes, how would you fix it? (5pt)
 
 **Answer:**
-Yes, use
+Yes, to fix, use:
 ```c++
 delete []arr3;
 ```
@@ -81,7 +81,21 @@ What does the line with the comment "here", also shown below, do? (5pt)
 a = c;
 ```
 
+**Answer:**
+Assign the value of c, which is -4, to variables referenced by a, which is b and d
+
 After running this section, the value of **a** is **-3**. Explain how variable **a** goes from its initial value 10 to -3. (5pt)
+
+**Answer:**
+reference a and d both reference variable b;
+a++;
+
+```c++
+a++;  // a = 11
+c -= 2; // c becomes -4, does not affect a at this line
+a = c;  // a (b, d) become -4
+d = d + 1; // (a,b,d) become -3 (-4+1), because a is a reference (alias) of b, and d is also a reference (alias) of b
+```
 
 ### Task 4 (5pt)
 
@@ -120,6 +134,13 @@ int main(int argc, char **argv) {
 }
 ```
 
+**Answer:**
+add 
+```c++
+delete my_borrowed_laptop
+```
+at the end of the main function.
+
 ### Task 5 (10pt)
 
 Your classmate Jimmy is complaining the following code "doesn't work". He's trying to write a function to return the larger of two integers. And in the main function he's calling that function for a quick test.
@@ -128,13 +149,25 @@ Your time to shine with your C++ knowledge!
 
 ```c++
 int max(int &a, int &b) {
-        return (a>=b) ? a : b;
+    return (a>=b) ? a : b;
 }
 
 int main(int argc, char **argv) {
-        int x = max(1, 2);
-        std::cout << x << std::endl;
+    int x = max(1, 2);
+    std::cout << x << std::endl;
 }
 ```
 
 What problem do you see in his code (5pt)? And how would you fix it (5pt)?
+
+**Answer:**
+problem: code won't compile because max function is take references as parameters while main is passing in integer values, which are not variables to match the reference parameter in function max.
+<img width="1269" alt="image" src="https://user-images.githubusercontent.com/252020/163688646-a3c8715a-72f1-4afd-8dd5-940956f7ef25.png">
+
+To fix, use variables to call max
+
+```c++
+    int a = 1, b = 2;
+    int x = max(a, b);
+    std::cout << x << std::endl;
+```
