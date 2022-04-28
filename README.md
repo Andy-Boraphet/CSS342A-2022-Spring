@@ -94,7 +94,7 @@ The goals of this course are for students to:
 | 4/13, 15 | 3 | OOP, ADT (array, array list) | C++ ch {8, 9, 12} | [homework2](https://github.com/a-teaching-goose/CSS342A-2022-Spring/tree/main/homeworks/homework-2) |
 | 4/20, 22 | 4 | OOP, ADT (linked list, iterator)<br/>STL intro | C++ ch interlude {8}<br/>ch {6, 7, 13, 14} |  |
 | 4/27, 29 | 5 | ADT (map)<br/>Recursion<br/>Dependency Injection<br/> | C++ ch {18} |  |
-| ***5/4***, 6 | 6 | ***Midterm on 5/5***<br>Special topic: A tale of two linkedlist reversals<br>Recursion (back tracking)<br> | C++ ch {2, 5.3, 6, 13} |  |
+| 5/4, ***6*** | 6 | ***Midterm on 5/6***<br>Special topic: A tale of two linkedlist reversals<br>Recursion (back tracking)<br> | C++ ch {2, 5.3, 6, 13} |  |
 | 5/11, 13 | 7 | ADT(binary trees)<br/>Sorting & complexity analysis<br/>Final projects review | C++ ch {15} |   |
 | 5/18, 20 | 8 | ADT(binary trees) cont.<br/>Final projects review | C++ ch {15.5} |  |
 | 5/25, 27 | 9 | ADT(graph, topology sort)<br/>Math induction	& Propositional logic<br/>Final projects review | Math {4, 8.1}, C++ {20} |   |
