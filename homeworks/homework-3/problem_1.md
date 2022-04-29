@@ -56,4 +56,4 @@ int MovieAction::calculate_late_fees(int num_of_days_past_due) {
 }
 ```
 
-This is used to calculate the late fee for action movies. Go look for the unit test for this, and it's called "calculate_late_fees_movie_action". Use the logic in the test to figure out how the late fee is calculated for action movies.
+This is used to calculate the late fee for action movies. Look for the corresponding unit test. It's called "calculate_late_fees_movie_action". Use the logic in the test to figure out how the late fee is calculated for action movies. This one may feel like a bit detective work. Make a conjecture and try it in the code.
