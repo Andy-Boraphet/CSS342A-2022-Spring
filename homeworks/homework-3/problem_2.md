@@ -18,11 +18,11 @@ All the functions to be completed is in [src/problem_2.cpp](https://github.com/a
 
 Comparing to the last homework, an additional **reverse** function is to be implemented for both ArrayList and LinkedList. The reverse function for linkedlist is to be implement iteratively, meaning no recursion is allowed.
 
-The cool part is the test for both reverse function is the same piece of code:
+The cool part is the test for both reverse functions (in ArrayList and LinkedList) is the same piece of code:
 
 <img width="439" alt="image" src="https://user-images.githubusercontent.com/252020/165891548-92eb1406-2046-407e-9284-78568771b399.png">
 
-Talking about the rule of DRY ("Don't Repeat Yourself")!
+Talking about the rule of DRY ("Don't Repeat Yourself")! This is where C++ "late binding" shines!
 
 ### Test As A Manual
 
