@@ -1,4 +1,4 @@
-## 2022 UWB CSS 342(A) Midterm Exam (100pt)
+## 2022 UWB CSS 342(A) Midterm Exam (100pt) (EXAMPLE)
 
 ### "Single Choices"
 
