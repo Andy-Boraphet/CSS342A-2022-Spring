@@ -4,7 +4,7 @@
 
 In this task, we have two youtube videos to watch and learn:
 
-1. [Trading Psychology: How to Handle FOMO (Dr. Steenbarger)](https://youtu.be/bEXz7Abf-wM)
+1. [Trading Psychology: How to Handle FOMO (Dr. Steenbarger)](https://youtu.be/bEXz7Abf-wM), hint: replace "trading" or "trader" with "programming" related
 2. [TDD for those who don't need it](https://youtu.be/a6oP24CSdUg)
 
 
