@@ -116,7 +116,8 @@ How you would fix it? Write down the code for the fix (5pt).
 
 
 ```
-hint: any problem with memory too? (5pt)
+
+any problem with memory too? Write down your code for fix(5pt)
 ```
 
 
