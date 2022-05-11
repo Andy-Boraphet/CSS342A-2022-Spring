@@ -4,7 +4,7 @@
 
 ### Put
 
-Put simply means adding or updating an existing key-value pair.
+Put simply means adding or updating an existing key-value pair that matches the given key.
 
 ### Remove
 
