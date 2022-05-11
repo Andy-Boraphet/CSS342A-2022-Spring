@@ -22,7 +22,7 @@ There are **Three** problems to solve:
 - [Problem 2](problem_2.md) (40pt)
 - [Problem 3](problem_3.md) (30pt)
 - [Problem 4](problem_4.md) (10pt)
-- Extra credit: Beat Parkinson’s law! To encourage a good habit of not waiting till the last day to start work, 10pt extra points if all work done one day ahead of the deadline (no newer commits than 5/16 11:59pm PDT).
+- Extra credit: Beat Parkinson’s law! To encourage a good habit of not waiting till the last day to start working on the homework, **10pt extra points if all work done one day ahead of the deadline (no newer commits than 5/16 11:59pm PDT)*.
 
 
 ### Code Repo ###
