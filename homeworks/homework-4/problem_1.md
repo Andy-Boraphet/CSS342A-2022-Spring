@@ -8,7 +8,7 @@ Going backward is fun sometimes.
 
 ### Going Reverse
 
-Let's write a function to print a single linked list backward to the screen. 
+Let's write a function that prints a single linked list backward to the screen. 
 
 Linkedlist is straightforward to traverse through front to end. But going backward is not too natural. There are two ways generally:
 
