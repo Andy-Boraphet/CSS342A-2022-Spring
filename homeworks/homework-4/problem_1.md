@@ -15,7 +15,7 @@ Linkedlist is straightforward to traverse from front to end. But going backward 
 1. Using a stack
 2. Using recursion
 
-Both stack and recursion are typically good for "doing something else before coming back". Both methods are open to use in this task. However, any usage of any kind of array/vector/list/queue is not allowed.  
+Both stack and recursion are typically good for "doing something else before coming back". Both methods are open to use in this task. However, usage of any kind of array/vector/list/queue is not allowed.  
 
 ### Testing
 
