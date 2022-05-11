@@ -1,34 +1,35 @@
-<img src="https://user-images.githubusercontent.com/252020/165889017-c1484617-9f05-4797-bb53-4872bb26d13e.png"
+<img src="https://user-images.githubusercontent.com/252020/167756980-82b4d15e-7424-4222-9ed1-1f0bce4b5961.png"
      width="50%" />
-     
 
-## "Spring Yet?"
+## "A Dream In A Dream"
 
 ### Dates
 
-    - Assigned: 04/29/2022
-    - Due: Monday May 08 23:59:00 PDT 2022
+    - Assigned: 05/11/2022
+    - Due: Monday May 17 23:59:00 PDT 2022
 
 ## Goals ##
 
-- C++: programming OOP
-- ADT: ArrayList and LinkedList 
+- Coding: Test driven development, dependency inversion principle
+- ADT: LinkedList, Map and recursion
 - Use given unit tests as instruction manual
 
 ### Problems To Solve
 
 There are **Three** problems to solve:
 
-- [Problem 1](problem_1.md) (45pt)
-- [Problem 2](problem_2.md) (45pt)
-- [Problem 3](problem_3.md) (10pt)
+- [Problem 1](problem_1.md) (20pt)
+- [Problem 2](problem_2.md) (40pt)
+- [Problem 3](problem_3.md) (30pt)
+- [Problem 4](problem_4.md) (10pt)
+
 
 
 ### Code Repo ###
 
 Use the following repo for homework:
 
-**Code:** https://github.com/a-teaching-goose/2022-342-sprint-3 
+**Code:** https://github.com/a-teaching-goose/2022-342-sprint-4 
 
 Not using this repo will result in 0 point.
 

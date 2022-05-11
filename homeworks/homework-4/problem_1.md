@@ -1,59 +1,56 @@
-<img src="https://user-images.githubusercontent.com/252020/165889219-7c26e3b7-7b30-43f3-b4c0-8cd005a6b142.png"
-     alt="media store sketch"
-     width="50%" />
+<img src="https://user-images.githubusercontent.com/252020/167759795-8d8dbebf-8a43-4e81-bfba-28901f2b93a1.png"
+     alt="hand"
+     width="40%" />
      
-[sketch source](http://www.urbansketchers.org/2009/12/sketching-at-historic-bookstore-in.html) 
+## (20pt) Print A Single Linked List In Reverse Order
 
-This homework was developed based on Programming Projects 8.2 & 8.3 on page 518 in the textbook "Absolute Java" 6th edition. Converted to C++ for 342 in 2022.
+Going backward is fun sometimes.
 
-## (40pt) Design OOP for A Media Store
+### Going Reverse
 
-A media rental store needs to write a software to manage some operations for their books and movies. 
+Let's write a function to print a single linked list backward to the screen. 
 
-There are two kinds of media: 
+Linkedlist is straightforward to traverse through front to end. But going backward is not too natural. There are two ways generally:
 
-- Book
-- Movie
- 
-Both media types have an **inventory_id** field as its store unique identifier. To guarentee the uniqueness of this identifier, [singleton pattern](https://www.tutorialspoint.com/Explain-Cplusplus-Singleton-design-pattern) is used in this repo. A singleton InventoryManager is responsible of generating unique *inventory_id*. There could be only one instance of this InventoryManager in this program.
+1. Using a stack
+2. Using recursion
 
-### Task 1.1 (10pt)
-Implement the "==" operator that is used to compare between the **same** kind of media. Book with book, and movie with movie.
+Both stack and recursion are typically good for "doing something else before coming back". Both methods are open to use in this task. However, any usage of any kind of array/vector/list/queue is not allowed.  
 
-Code is src/problem_1/store_media_interface.h
-```c++
-    bool operator==(const StoreMediaInterface &other_media) const {
-        /*
-         * TODO: homework
-         */
-        return false;
-    };
-```    
+### Testing
 
-A movie equals another movie only when their **id** are the same. Same rule for books being equal. Read this line again before moving on.
+By now you should already concluded that the instructor never shuts up about testing. ¯\\\_(ツ)\_/¯ 
 
-### Task 1.2 (30pt)
-Implement a few functions related to calulating the late fee. All of such places are marked as
+Well, if you haven't, here's another proof.
+
+In this task, we need to test a function that's supposed to print string to the screen. For automated testing like what we have done so far, it's not easy (if possible at all) to get the "actual" values to compare with the "expect", because the result of our function is actually on the screen. 
+
+Instead of resorting to "eyeball" testing back again, this task will explore the idea of the "[Dependency Inversion Principle](https://deviq.com/principles/dependency-inversion-principle)", or shorted as "DI". The idea is "high level modules should not depend on low level modules; both should depend on abstractions.". In our case, std::cout or printf is the "low level modules", and having dependency on these (calling them from our function) makes our code tightly coupled with these function. Software hates coupling.
+
+Another thing to note is, what we are testing is the output of the reverse visit of the single linked list. Printing is to show the result, not a logic for us to test. 
+
+As a solution with DI, we change our function to only rely on an abstraction:
 
 ```c++
-    /*
-     * TODO: homework
-     */
- ```
-
-The following shows all the places to work on as homework:
-
-<img width="355" alt="image" src="https://user-images.githubusercontent.com/252020/165890528-9e3435a7-1a23-4976-83a6-1c0791eab3a4.png">
- 
-This is another chance to **use unit tests as manual** to figure out what should go into each function. 
-
-For example, This function:
-```
-int MovieAction::calculate_late_fees(int num_of_days_past_due) {
-    /*
-     * TODO: homework
-     */
+class Printer {
+public:
+    virtual void print(std::string val) = 0;
 }
 ```
 
-This is used to calculate the late fee for action movies. Go look for the unit test for this, and it's called "calculate_late_fees_movie_action". Use the logic in the test to figure out how the late fee is calculated for action movies.
+And now our reverse print functions takes an interface as parameter.
+
+```c++
+    void reverse_print(Printer &print) const;
+```
+
+This is the "abstraction" of printing in the form or an "interface" class (a class with only pure virtual functions). Depending on whether we are running it or testing it, different implementations of the Print interface can be provided. In normal use, the print would actually print to the screen while in testing, it'll print into a "buffer" for us to do validation.
+
+In this task, in addition to implement the reverse print function, we also need to implement two print functions, one to pass test, and the other to actually print to screen. So for this homework:
+
+1. the unit test should pass.
+2. run the main function in the src folder, and you should also see the correct screen printout.  
+
+
+
+
