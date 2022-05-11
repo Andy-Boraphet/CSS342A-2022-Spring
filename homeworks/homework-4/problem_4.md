@@ -2,7 +2,7 @@
      width="50%" />
 
 
-### (20pt) Write a function to perform binary search recursively in an ascendingly sorted integer array. ###
+### (10pt) Write a function to perform binary search recursively in an ascendingly sorted integer array. ###
 
 We did the binary search in homework 1. This time let's do it again but put our recursion idea to some use. 
 
