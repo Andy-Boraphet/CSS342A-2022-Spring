@@ -10,7 +10,7 @@ Going backward is fun sometimes.
 
 Let's write a function that prints a single linked list backward to the screen. 
 
-Linkedlist is straightforward to traverse through front to end. But going backward is not too natural. There are two ways generally:
+Linkedlist is straightforward to traverse from front to end. But going backward is not as natural. There are two ways generally:
 
 1. Using a stack
 2. Using recursion
