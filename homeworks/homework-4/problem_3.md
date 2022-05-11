@@ -1,6 +1,6 @@
 <img width="316" alt="image" src="https://user-images.githubusercontent.com/252020/167771084-3d07d4e1-424b-401b-a517-f99a9a1454fc.png">
 
-## (10pt) Percentile
+## (30pt) Percentile
 
 This is another "reverse engineering" puzzle task. We are calculating percentile.
 
