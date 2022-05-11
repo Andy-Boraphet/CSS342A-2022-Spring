@@ -4,11 +4,11 @@
 
 ### Put
 
-Put simply means adding or updating an existing key-value pair that matches the given key.
+*Put* simply means adding or updating an existing key-value pair that matches the given key.
 
 ### Remove
 
-Remove would remove a key-value pair that matches the given key.
+*Remove* would remove a key-value pair that matches the given key.
 
 ### Test As A Manual
 
