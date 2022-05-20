@@ -1,7 +1,7 @@
-<img src="https://user-images.githubusercontent.com/252020/167756980-82b4d15e-7424-4222-9ed1-1f0bce4b5961.png"
-     width="50%" />
+<img src="https://user-images.githubusercontent.com/252020/169445278-076c57f8-bde5-4a84-8e2f-abb747e8fd42.png"
+     width="40%" />
 
-## "A Dream In A Dream"
+## "Left or Right"
 
 ### Dates
 
@@ -10,16 +10,17 @@
 
 ## Goals ##
 
-- Coding: Recursion 
-- ADT: LinkedList, recursion (backtracking)
+- Coding: Recursion (backtracking)
+- ADT: LinkedList, Stack
 
 ### Problems To Solve
 
 There are **Three** problems to solve:
 
 - [Problem 1](problem_1.md) (30pt)
-- [Problem 2](problem_2.md) (30pt)
-- [Problem 3](problem_3.md) (40pt)
+- [Problem 2](problem_2.md) (25pt)
+- [Problem 3](problem_3.md) (30pt)
+- [Problem 4](problem_4.md) (15pt)
 
 ### Code Repo ###
 
