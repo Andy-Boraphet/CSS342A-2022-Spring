@@ -30,3 +30,5 @@ bool Sudoku::solve() {
 This is to be done with recursion so feel free to add a helper function. One of provided as an optional suggestion. When you do, just remember to add the function declaration in *sudoku.h* too. 
 
 All tests are provided, including one that attempts [one of the hardest Sudoku problems in the world](https://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html).
+
+For 5 extra credit, add at least one more test case. 
