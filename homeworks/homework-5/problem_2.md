@@ -1,15 +1,33 @@
-<img width="368" alt="image" src="https://user-images.githubusercontent.com/252020/167770480-108cd07d-57e1-48ad-857f-36f423fd6c95.png">
+<img src="https://user-images.githubusercontent.com/252020/169448091-798c207a-ee2e-44e7-a42a-9b33552fbcb1.png"
+     alt="hand"
+     width="40%" />
 
-## (40pt) Finish The ArrayMap 
+## (25pt) Reverse A Stack
 
-### Put
+Can't remember the last time I hit gym, but if you have a stack of weight plates, how do you "flip" or "reverse" them? 
 
-*Put* simply means adding or updating an existing key-value pair that matches the given key.
+Like this:
 
-### Remove
+<img src="https://user-images.githubusercontent.com/252020/169448681-0d76f78c-a9e7-4c9b-a30c-396c90968f42.png" width="30%">
 
-*Remove* would remove a key-value pair that matches the given key.
+If we have a stack of data in a Stack ADT, how would you reverse its elements without using any loop or any additional buffer?
 
-### Test As A Manual
+This task is to write a function that reverses the values in a Stack ADT using recursion
 
-All tests are given, and they also serve as an instruction manual. Use the given unit tests to understand the behavior of the functions to be implemented.
+```java
+template<typename T>
+void reverse_stack_recursively(Stack<T> &stack) {
+    /*
+     * TODO: homework
+     */
+}
+```
+
+
+Requirements:
+
+- No loop of any kind (such as "for", "while") is allowed. Zero point if any loop is used. OK to add helper function.
+- Cannot use additional buffer such as array, stack, queue, map. If you want to use something but not sure, please ask.
+- Must use recursion.
+- Cannot use the push(), peek() and pop() function from the Stack class.
+
