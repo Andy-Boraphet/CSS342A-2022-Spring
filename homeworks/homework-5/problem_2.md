@@ -2,7 +2,7 @@
      alt="hand"
      width="40%" />
 
-## (25pt) Reverse A Stack
+## (30pt) Reverse A Stack
 
 Can't remember the last time I hit gym, but if you have a stack of weight plates, how do you "flip" or "reverse" them? 
 
