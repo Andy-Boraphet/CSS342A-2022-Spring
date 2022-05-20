@@ -23,6 +23,14 @@ void reverse_stack_recursively(Stack<T> &stack) {
 }
 ```
 
+For example:
+
+* input stack: (top on the left, bottom on the right): [], after the reversal: []
+* input stack: (top on the left, bottom on the right): [0], after the reversal: [0]
+* input stack: (top on the left, bottom on the right): [0, 1], after the reversal: [1, 0]
+* input stack: (top on the left, bottom on the right): [0, 1, 2], after the reversal: [2, 1, 0]
+* input stack: (top on the left, bottom on the right): [0, 2, 2, 3], after the reversal: [3, 2, 2, 0]
+
 
 Requirements:
 
