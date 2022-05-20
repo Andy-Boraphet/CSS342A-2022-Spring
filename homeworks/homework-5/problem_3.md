@@ -1,19 +1,32 @@
-<img width="316" alt="image" src="https://user-images.githubusercontent.com/252020/167771084-3d07d4e1-424b-401b-a517-f99a9a1454fc.png">
+<img src="https://user-images.githubusercontent.com/252020/169449130-8ff2b42f-a573-46de-93d0-a0d73e7a5ed7.png" width="20%">
 
-## (30pt) Percentile
+## (30pt) Sudoku Solver
 
-This is another "reverse engineering" puzzle task. We are calculating percentile.
+Finally we get to write a Sudoku solver. Recursion, more specificially, backtracking is to be used. Pretty similiar idea with quiz-3.
 
-Here's the [wiki's definition](https://en.wikipedia.org/wiki/Percentile):
+Sudoku is written as a class. Here's a partial code of the class:
+
+<img src="https://user-images.githubusercontent.com/252020/169449701-083b275c-8360-4ff7-8c0c-2c7e968937d8.png" width="40%">
+
+The actual Sudoku data is stored in the *challenge* array:
+
+```c++
+    int *challenge;
+```    
+
+The Sudoku board is a 2D matrix, while here it's stored in a 1D array using [row major](https://en.wikipedia.org/wiki/Row-_and_column-major_order). Basically, it'll store one row after another inside this array.
 
 
-*In statistics, a k-th percentile (percentile score or centile) is a score below which a given percentage k of scores in its frequency distribution falls (exclusive definition) or a score at or below which a given percentage falls (inclusive definition).*
+The solver function is
 
-Percentile, as simple as the idea is, is very frequently use in real life software engineering and dev ops to "squeeze" useful information out of data. Usually in terms of [P99, P90, P50, etc.](https://readosapien.com/what-is-p50-p90-p99-latency/). Here are 2 good reads/watches on it:
+```c++
+bool Sudoku::solve() {
+    /*
+     * TODO: homework
+     */
+}
+```
 
-1. [How NOT to measure latency](https://youtu.be/lJ8ydIuPFeU)
-2. [An introduction to 99 percentile for programmers](https://medium.com/@ankur_anand/an-in-depth-introduction-to-99-percentile-for-programmers-22e83a00caf)
+This is to be done with recursion so feel free to add a helper function. One of provided as an optional suggestion. When you do, just remember to add the function declaration in *sudoku.h* too. 
 
-This task is to implement the percentil function, and as a comparison, also a mean value function. Similar to the compound interest homework, all tasks are given as a manual, and a [hint of the formula](https://www.calculatorsoup.com/calculators/statistics/percentile-calculator.php) is also given, so all we need to do is to figure out the formula and turn it into code. 
-
-We'll discuss more in the lecture on the use of percentile to understand information from data.
+All tests are provided, including one that attempts [one of the hardest Sudoku problems in the world](https://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html).
