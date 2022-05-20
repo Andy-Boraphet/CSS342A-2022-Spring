@@ -4,11 +4,13 @@
 
 ## (25pt) Reverse A Stack
 
-Can't remember the last time I hit gym, but if you have a stack of weight plates, how do you "flip" or "reverse" them? Suppose they are too heavy to be lifted as a whole, so we have to do it plate by plate.
+Can't remember the last time I hit gym, but if you have a stack of weight plates, how do you "flip" or "reverse" them? 
 
 Like this:
 
 <img src="https://user-images.githubusercontent.com/252020/169448681-0d76f78c-a9e7-4c9b-a30c-396c90968f42.png" width="30%">
+
+And no we cann't lift them all together and flip. Way too heavy. We have to do it plate by plate.
 
 If we have a stack of data in a Stack ADT, how would you reverse its elements without using any loop or any additional buffer?
 
