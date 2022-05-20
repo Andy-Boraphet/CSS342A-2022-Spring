@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/252020/169449130-8ff2b42f-a573-46de-93d0-a0d73e7a5ed7.png" width="20%">
 
-## (30pt) Sudoku Solver
+## (25pt) Sudoku Solver
 
 Finally we get to write a Sudoku solver. Recursion, more specificially, backtracking is to be used. Pretty similiar idea with quiz-3.
 
