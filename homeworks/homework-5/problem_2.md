@@ -4,7 +4,7 @@
 
 ## (25pt) Reverse A Stack
 
-Can't remember the last time I hit gym, but if you have a stack of weight plates, how do you "flip" or "reverse" them? 
+Can't remember the last time I hit gym, but if you have a stack of weight plates, how do you "flip" or "reverse" them? Suppose they are too heavy to be lifted as a whole, so we have to do it plate by plate.
 
 Like this:
 
