@@ -39,5 +39,6 @@ Requirements:
 - No loop of any kind (such as "for", "while") is allowed. Zero point if any loop is used. OK to add helper function.
 - Cannot use additional buffer such as array, stack, queue, map. If you want to use something but not sure, please ask.
 - Must use recursion.
-- Cannot use the push(), peek() and pop() function from the Stack class.
+- Can use the push(), peek() and pop() function from the Stack class.
 
+*Interesting notes*: The reverse_stack_recursively takes in a Stack interface. It doesn't specify whether this Stack is implemented using array or linkedlist. This is the same as our reverse print homework. An interface is used to decouple the reverse function from the specific implementation of Stack. 
