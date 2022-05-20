@@ -14,7 +14,7 @@ And no we cann't lift them all together and flip. Way too heavy. We have to do i
 
 If we have a stack of data in a Stack ADT, how would you reverse its elements without using any loop or any additional buffer?
 
-This task is to write a function that reverses the values in a Stack ADT using recursion
+This task is to write a function that reverses the elements in a Stack ADT using recursion:
 
 ```java
 template<typename T>
