@@ -344,7 +344,7 @@ TEST(color, simple) {
     Color magenta(MAGENTA);
 
     ASSERT_EQ(yellow, red + green);
-    ASSERT_EQ(magenta, RED + BLUE);
+    ASSERT_EQ(magenta, red + blue);
     ASSERT_EQ(cyan, blue + green);
 }
 ```
