@@ -6,12 +6,12 @@ Important note here: **This counts as 50% of the final exam points**.
 
 [TL;DR](https://www.howtogeek.com/435266/what-does-tldr-mean-and-how-do-you-use-it/): A summary of tasks to do
 
-- Answer the study questions about B-tree
-- Finish the *find_by_name* function
-- Run performance test and write analysis for single query
-- Run performance test and write analysis for range query
+1. Answer the study questions about B-tree
+2. Finish the *find_by_name* function
+3. Run performance test and write analysis for single query
+4. Run performance test and write analysis for range query
 
-Report is to be written in the *test/problem_4/report* file. All tests should pass upon completion.
+Answers for 1,3 and 4 is to be written in the *test/problem_4/report* file. All tests should pass upon completion.
 
 Note: the performance test could take a long time to run. Advise to not change the test size in the code you submit to github. You can play with different sizes on your machine all you want. Change them back to the original settings before you commit and push.
 
