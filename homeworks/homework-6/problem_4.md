@@ -53,7 +53,7 @@ Here's an illustration from the lecture slide:
 
 <img src="https://user-images.githubusercontent.com/252020/171221019-dcfa7a32-46a8-4ef5-bef1-7ee77ac945cd.png" width="40%">
 
-An index is modelled as:
+And an index is modelled as this "interface":
 
 ```c++
 template<typename KeyType>
@@ -70,7 +70,7 @@ public:
 };
 ```
 
-So the input to an idex is a key or a range of keys, and the output is a set of record *id* that matches the given key. Note there could be multiple matches, and therefore the output is stored in a vector. Using the output ids from the index, the corresponding records can be quickly located. Quickly how? Because records are stored in a vector which supports O(1) random access using. 
+Regardless how an index is implemented, the input to an idex is a key or a range of keys, and the output is a set of record *id* that matches the given key. Note there could be multiple matches, and therefore the output is stored in a vector. Using the output ids from the index, the corresponding records can be quickly located. Quickly how? Because records are stored in a vector which supports O(1) random access using. 
 
 ### Index with B-Tree (20pt)
 
