@@ -22,7 +22,7 @@ Here are some popular application of Merkle tree
 
 ### Hashing
 
-For this example, we need to do fancier hashing than using % as we did in the hashtable. [Sha256](https://medium.com/@shahharsh961/sha-265-algorithm-f49184e782d2)is our choice here. An [existing Sha256 implementation](https://create.stephan-brumme.com/hash-library/) is used. The internal working mechanism of Sha256 is not required for this homework. In short, it converts a string into another random string very efficiently with less chance of collision. If you are curious how it works, use [this test](https://github.com/a-teaching-goose/2022-342-sprint-6/blob/main/test/problem_3/unit_test_sha256.cpp) as a manual. 
+For this example, we need to do fancier hashing than using % as we did in the hashtable. [Sha256](https://medium.com/@shahharsh961/sha-265-algorithm-f49184e782d2) is our choice here. An [existing Sha256 implementation](https://create.stephan-brumme.com/hash-library/) is used. The internal working mechanism of Sha256 is not required for this homework. In short, it converts a string into another random string very efficiently with less chance of collision. If you are curious how it works, use [this test](https://github.com/a-teaching-goose/2022-342-sprint-6/blob/main/test/problem_3/unit_test_sha256.cpp) as a manual. 
 
 ### Task 1: Implement the Left(...) function
 
