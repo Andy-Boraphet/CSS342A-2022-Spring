@@ -4,7 +4,7 @@
 
 Important note here: **This counts as 50% of the final exam points**.
 
-TL;DR. A summary of tasks to do
+[TL;DR](https://www.howtogeek.com/435266/what-does-tldr-mean-and-how-do-you-use-it/): A summary of tasks to do
 
 - Answer the study questions about B-tree
 - Finish the *find_by_name* function
