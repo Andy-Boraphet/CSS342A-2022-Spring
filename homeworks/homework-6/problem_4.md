@@ -11,7 +11,7 @@ Important note here: **This counts as 50% of the final exam points**.
 3. Run performance test and write analysis for single query
 4. Run performance test and write analysis for range query
 
-Answers for 1,3 and 4 is to be written in the *test/problem_4/report* file. All tests should pass upon completion.
+Answers for 1,3 and 4 are to be written in the *test/problem_4/report* file. All tests should pass upon completion.
 
 Note: the performance test could take a long time to run. Advise to not change the test size in the code you submit to github. You can play with different sizes on your machine all you want. Change them back to the original settings before you commit and push.
 
