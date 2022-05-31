@@ -1,23 +1,25 @@
-<img src="https://user-images.githubusercontent.com/252020/169445278-076c57f8-bde5-4a84-8e2f-abb747e8fd42.png"
+<img src="https://user-images.githubusercontent.com/252020/171098727-f63cfa81-9009-4482-b64d-60a06b83af99.png"
      width="40%" />
+     
 
-## "Left or Right"
+## "Let It Grow"
 
 ### Dates
 
-    - Assigned: 05/20/2022
-    - Due: Monday May 30 23:59:00 PDT 2022
+    - Assigned: 05/31/2022
+    - Due: Saturday June 11 23:59:00 PDT 2022
 
 ## Goals ##
 
 - Coding: Recursion (backtracking)
-- ADT: LinkedList, Stack
+- ADT: Tree
+- Performance
 
 ### Problems To Solve
 
-There are **Three** problems to solve:
+There are **Four** problems to solve:
 
-- [Problem 1](problem_1.md) (30pt)
+- [Problem 1](problem_1.md) (10pt)
 - [Problem 2](problem_2.md) (30pt)
 - [Problem 3](problem_3.md) (25pt)
 - [Problem 4](problem_4.md) (15pt)
