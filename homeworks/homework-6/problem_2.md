@@ -43,7 +43,7 @@ From the hint of recursive method, we can infer that a stack would be helpful. T
 
 Just to be clear, **no recursion is allowed or zero point will be given**.
 
-### 2.3 Lowest Common Ancester (20pt) 
+### 2.2 Lowest Common Ancester (20pt) 
 
 Given a binary tree, write code to find the lowest common ancestor (LCA) of two given nodes in the tree.
 
@@ -53,7 +53,7 @@ According to the [definition of LCA on Wikipedia](https://en.wikipedia.org/wiki/
 
 Tests are provided and also serve as a manual for how the algorithm should work. For example:
 
-```java
+```
 	      1
              / \
             2   3
