@@ -1,8 +1,6 @@
-<img src="https://user-images.githubusercontent.com/252020/169446666-7a9def2c-f7a4-419a-a683-31aff5e645f7.png"
+<img src="https://user-images.githubusercontent.com/252020/252020/171099669-880976af-1c7e-4933-a9cd-d58774470263.png"
      alt="hand"
      width="40%" />
-     
-
      
 ## (20pt) Class Survey
 
