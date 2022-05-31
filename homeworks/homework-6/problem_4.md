@@ -4,6 +4,15 @@
 
 Important note here: **This counts as 50% of the final exam points**.
 
+TL;DR. A summary of tasks to do
+
+- Answer the study questions about B-tree
+- Finish the *find_by_name* function
+- Run performance test and write analysis for single query
+- Run performance test and write analysis for range query
+
+Report is to be written in the *test/problem_4/report* file.
+
 ### Storing large amount of data
 
 The story here is that we need to store a large number of user records. Each record contains username, age and a set of hobbies. What's your favorite hobby by the way?
