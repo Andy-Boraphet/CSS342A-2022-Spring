@@ -204,7 +204,7 @@ Here are some prelimary result:
 50000,7522,3435,4167
 ```
 
-First column is table size and the rest are running time in microseconds in the sequence of hashtable index, B-tree index and direct search in vector.
+First column is table size and the rest are running time in microseconds in the sequence of hashtable index, B-tree index and direct search in vector. Notice here the B-tree time is slower than both hashtable index and direct search. This shows the benefit of the B-tree for range query.
 
 Similarly, run this with larger table size (change only STEP_TABLE_SIZE and MAX_TABLE_SIZE), and write an analysis of what you observes with your running output. 
 
