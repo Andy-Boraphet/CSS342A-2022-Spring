@@ -20,6 +20,10 @@ Here are some popular application of Merkle tree
 - [Git and Bitcoin](https://medium.com/geekculture/understanding-merkle-trees-f48732772199). While we are on it, [here](https://youtu.be/ig5E8CcdM9g) is a great video about how Git works internally. Fancinating talk!
 - [IPFS](https://docs.ipfs.io/concepts/merkle-dag/). Also a [good video](https://youtu.be/YIc6MNfv5iQ) here.
 
+### Hashing
+
+For this example, we need to do fancier hashing than using % as we did in the hashtable. [Sha256](https://medium.com/@shahharsh961/sha-265-algorithm-f49184e782d2)is our choice here. An [existing Sha256 implementation](https://create.stephan-brumme.com/hash-library/) is used. The internal working mechanism of Sha256 is not required for this homework. In short, it converts a string into another random string very efficiently with less chance of collision. If you are curious how it works, use [this test](https://github.com/a-teaching-goose/2022-342-sprint-6/blob/main/test/problem_3/unit_test_sha256.cpp) as a manual. 
+
 ### Task 1: Implement the Left(...) function
 
 To get a sense of how Merkle Tree could help speed up data validation, this task creates a [key-value store](https://github.com/a-teaching-goose/2022-342-sprint-6/blob/0e917e8ef9a28a8da5fc3cc4cd26cd8549a9979f/src/problem_3/merkle_kv.h#L17), aka "KV store", that carries a Merkle Tree to help detects whether any value of any key has changed. The store itself keeps its data in a std::map 
@@ -54,6 +58,8 @@ int MerkleKV::right(int node_idx) {
 ```
 
 All tests provided, and as usual, upon finish, all tests should pass.
+
+
 
 ### Task 2: Performance test
 
