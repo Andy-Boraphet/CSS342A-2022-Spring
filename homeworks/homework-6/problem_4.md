@@ -61,3 +61,61 @@ public:
 
 So the input to an idex is a key or a range of keys, and the output is a set of record *id* that matches the given key. Note there could be multiple matches, and therefore the output is stored in a vector. Using the output ids from the index, the corresponding records can be quickly located. Quickly how? Because records are stored in a vector which supports O(1) random access using. 
 
+### Index with B Tree (15pt)
+
+So how do we implement the index? There are many options. Remember, the goal of the index is allowing quick search. Among the ADTs we've covered this semester, hashtable and binary search trees are the ones that fit that profile. To push things to another level, instead of using good'o binary search tree, we'll opt for a fancier version search tree: B Tree. 
+
+Two indexes are implemented and provided in our code base.
+
+<img width="257" alt="image" src="https://user-images.githubusercontent.com/252020/171229584-c04a24e5-3f0d-4de5-be63-d670f9363bf8.png">
+
+Your task is to conduct some self-study and understand the following:
+
+- How B Tree works? (focus on searching in an B Tree)
+- How does B Tree compares to a binary search tree?
+- Why B Tree could be helpful for data indexing?
+
+Add your study result in the *report* file.
+
+Here are a few good materials for you to start:
+
+- [B Trees and B+ Trees. How they are useful in Databases](https://youtu.be/aZjYr87r1b8)
+- [A visualization to play around with a B tree](https://www.cs.usfca.edu/~galles/visualization/BTree.html)
+- [Some study on database storage internals](https://kousiknath.medium.com/data-structures-database-storage-internals-1f5ed3619d43)
+
+We have google so find more materials. For this study, focus on high-level mechanism. No need to understand every single details.
+
+### Finish Missing Code (20pt)
+
+In our DB implementation, finish the following function:
+
+```c++
+bool GasWorksDB::find_by_name(const std::string &name, std::vector<Record> &found_records) {
+    if (enable_index) {
+        std::vector<unsigned> record_ids;
+        index_group->get_name_index().find_records(name, record_ids);
+
+        if (record_ids.empty()) {
+            return false;
+        }
+
+        for (auto id: record_ids) {
+            found_records.push_back(table[id]);
+        }
+        return true;
+    }
+
+    /*
+     * TODO: homework
+     */
+    return 0;   // remove this when homework is done
+}
+```
+
+Test should pass upon finish. The missing part to be finished is searching through the record vector for those that matches the name. There are similar functions such as *find_by_age* for your reference. Don't over think this one. It's *that* simple.
+
+### Performance Test (15pt)
+
+
+
+
