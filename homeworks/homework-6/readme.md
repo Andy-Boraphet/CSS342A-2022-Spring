@@ -28,7 +28,7 @@ There are **Four** problems to solve:
 
 Use the following repo for homework:
 
-**Code:** https://github.com/a-teaching-goose/2022-342-sprint-5 
+**Code:** https://github.com/a-teaching-goose/2022-342-sprint-6
 
 Not using this repo will result in 0 point.
 
