@@ -1,6 +1,6 @@
-<img src="https://user-images.githubusercontent.com/252020/171098727-f63cfa81-9009-4482-b64d-60a06b83af99.png"
-     width="40%" />
-     
+<img src="https://user-images.githubusercontent.com/252020/171248810-66dfdc89-fb4c-461f-9575-11232df33f25.png"
+     width="90%" />
+    
 
 ## "Gas Works Park"
 
