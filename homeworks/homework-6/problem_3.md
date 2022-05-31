@@ -13,7 +13,7 @@
 
 ### Merkle Tree
 
-[Merkle tree], also known as a hash tree, is a tree data structure where each node contains the hash of it's children. One of the key benefits is that it allows quick detect changes, usually used for data validation. Interestingly, We have actually been using Merkle tree throughout the semester and that's in Git. 
+[Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree), also known as a hash tree, is a tree data structure where each node contains the hash of it's children. One of the key benefits is that it allows quick detect changes, usually used for data validation. Interestingly, We have actually been using Merkle tree throughout the semester and that's in Git. 
 
 Here are some popular application of Merkle tree
 
