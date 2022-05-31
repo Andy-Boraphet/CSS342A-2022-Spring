@@ -19,7 +19,7 @@ Note: the performance test could take a long time to run. Advise to not change t
 
 The story here is that we need to store a large number of user records. Each record contains username, age and a set of hobbies. (What's your favorite hobby by the way?)
 
-The data entry is model as the following:
+The data entry is modelled as the following:
 
 ```c++
 class Record {
