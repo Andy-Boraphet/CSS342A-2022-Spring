@@ -2,7 +2,7 @@
      alt="hand"
      width="40%" />
      
-## (20pt) Class Survey
+## (40pt) Class Survey
 
 You should have received [a class survey](https://uwb.iasystem.org/survey/27303) from school (DM me if not) about this class. 
 
