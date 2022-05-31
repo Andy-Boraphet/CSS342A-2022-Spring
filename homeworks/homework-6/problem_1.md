@@ -38,7 +38,7 @@ This is yet another backtracking recursive problem. Also on [LeetCode](https://l
 
 This problem has a lot of similarity with the permutation and Soduku solver, and be careful, it is very easy to overthink. Try it yourself for a few hours and if nothing comes up, research some solution and understand it. The code in the right implementation is all beauty with recursion. 
 
-### 2.2 The Function (5pt)
+### 2.2 The Test (5pt)
 
 Another interesting thing about this homework is the testing. 
 
