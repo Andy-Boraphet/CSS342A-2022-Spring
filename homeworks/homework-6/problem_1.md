@@ -1,13 +1,39 @@
-<img src="https://user-images.githubusercontent.com/252020/171099669-880976af-1c7e-4933-a9cd-d58774470263.png"
+<img src="https://user-images.githubusercontent.com/252020/171264166-344df444-3ffc-4ab9-8054-9dffe8261253.png"
      alt="hand"
      width="40%" />
      
-## (40pt) Class Survey
+## (20pt) Possible Parentheses
 
-You should have received [a class survey](https://uwb.iasystem.org/survey/27303) from school (DM me if not) about this class. 
+### 2.1 The Function (15pt)
 
-Please finish this survey by **This Friday, Jun  3, 2022 at 11:59pm**.
+Given a positive integer n, how many possible valid parentheses could there be? Say we use "(" and ")" pair.
 
-As a proof of completion, please send a screenshot to my email at pengdu@uw.edu with the title *"homework 6 survey"*. It should show the survey is completed. 
+For example:
 
-**Important:** The deadline of the survey to school is earlier than the deadline for other part of this homework. 
+When n is 1, there is only one, "()".
+
+When n is 2, there are two, "()()" and "(())".
+
+When n is 3, there are "(())()", "()()()", "((()))", so on. 
+
+How about when is 15?
+
+In this problem, let's write the code that does this:
+
+```c++
+void CatalanNumberSolver::possible_parenthesis(size_t n, std::vector<std::string> &result) {
+    /*
+     * TODO: homework
+     */
+}
+```
+
+This is yet another backtracking recursive problem. Also on [LeetCode](https://leetcode.com/problems/generate-parentheses/).
+
+This problem has a lot of similarity with the permutation and Soduku solver, and be careful, it is very easy to overthink. Try it yourself for a few hours and if nothing comes up, research some solution and understand it. The code in the right implementation is all beauty with recursion. 
+
+### 2.2 The Function (5pt)
+
+Another interesting thing about this homework is the testing. 
+
+Usually it's tested with n=1,2,3 cases by writing out all the expect solutions in string literals such as "()()". Not for us 342ers. Instead, the test is written here to be able to validate *any* size. Larger sizes may take longer to run but it will finish if you have a better computer. Best part is we human doesn't have to spell out all those literals. Take a read of how the testing is written, and write a section of comments in the test code explaining the testing logic. 
