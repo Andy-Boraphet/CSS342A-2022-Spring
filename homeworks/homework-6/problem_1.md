@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/252020/252020/171099669-880976af-1c7e-4933-a9cd-d58774470263.png"
+<img src="https://user-images.githubusercontent.com/252020/171099669-880976af-1c7e-4933-a9cd-d58774470263.png"
      alt="hand"
      width="40%" />
      
