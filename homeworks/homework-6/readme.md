@@ -19,7 +19,7 @@
 
 There are **Four** problems to solve:
 
-- [Problem 1](problem_1.md) (10pt)
+- [Problem 1, class survey](problem_1.md), deadline this Friday (20pt)
 - [Problem 2](problem_2.md) (30pt)
 - [Problem 3](problem_3.md) (25pt)
 - [Problem 4](problem_4.md) (15pt)
