@@ -1,4 +1,4 @@
-<img width="40%" alt="image" src="https://user-images.githubusercontent.com/252020/171221986-94791b45-a81a-4d0a-a8bb-b262c1d4a4a1.png">
+<img width="30%" alt="image" src="https://user-images.githubusercontent.com/252020/171221986-94791b45-a81a-4d0a-a8bb-b262c1d4a4a1.png">
 
 ## (50pt) Final Project
 
