@@ -1,44 +1,74 @@
-<img src="https://user-images.githubusercontent.com/252020/169448091-798c207a-ee2e-44e7-a42a-9b33552fbcb1.png"
+<img src="https://user-images.githubusercontent.com/252020/171100578-67588802-cd99-48b7-8018-b96ae56add74.png"
      alt="hand"
      width="40%" />
 
-## (30pt) Reverse A Stack
+## Trees
 
-Can't remember the last time I hit gym, but if you have a stack of weight plates, how do you "flip" or "reverse" them? 
+There are 2 sub-problems:
 
-Like this:
 
-<img src="https://user-images.githubusercontent.com/252020/169448681-0d76f78c-a9e7-4c9b-a30c-396c90968f42.png" width="30%">
+### 2.1 Iterative Pre-order and In-order Traversal (40pt) 
 
-And no we cannot lift them all together and flip. What are we, Popeye? It's way too heavy. We have to do it plate by plate.
+Implement the function that returns the values of an pre-order and in-order traversal from a binary tree, respectively.
 
-If we have a stack of data in a Stack ADT, how would you reverse its elements without using any loop or any additional buffer?
-
-This task is to write a function that reverses the elements in a Stack ADT using recursion:
-
-```java
-template<typename T>
-void reverse_stack_recursively(Stack<T> &stack) {
+```c++
+template<class T>
+std::vector<T> *BinaryTree<T>::dfs_in_order() {
+    auto *result = new std::vector<T>();
     /*
      * TODO: homework
      */
+    return result;
 }
 ```
 
-For example:
+and
 
-* input stack: (top on the left, bottom on the right): [], after the reversal: []
-* input stack: (top on the left, bottom on the right): [0], after the reversal: [0]
-* input stack: (top on the left, bottom on the right): [0, 1], after the reversal: [1, 0]
-* input stack: (top on the left, bottom on the right): [0, 1, 2], after the reversal: [2, 1, 0]
-* input stack: (top on the left, bottom on the right): [0, 2, 2, 3], after the reversal: [3, 2, 2, 0]
+```c++
+template<class T>
+std::vector<T> *BinaryTree<T>::dfs_pre_order() {
+    auto *result = new std::vector<T>();
+    /*
+     * TODO: homework
+     */
+    return result;
+}
+```
 
+The "dfs" in the function name means both are a kind of "depth first search" algorithm.
 
-Requirements:
+The recursive solution is trivial. Let's here write the **iterative** solution, which means "no recursion".
 
-- No loop of any kind (such as "for", "while") is allowed. Zero point if any loop is used. OK to add helper function.
-- Cannot use additional buffer such as array, stack, queue, map. If you want to use something but not sure, please ask.
-- Must use recursion.
-- Can use the push(), peek() and pop() function from the Stack class.
+From the hint of recursive method, we can infer that a stack would be helpful. The return value is a list that containts the values (not nodes) of the tree nodes in the traversal.
 
-*Interesting notes*: The reverse_stack_recursively takes in a Stack interface. It doesn't specify whether this Stack is implemented using array or linkedlist. This is the same as our reverse print homework. An interface is used to decouple the reverse function from the specific implementation of Stack. 
+Just to be clear, **no recursion is allowed or zero point will be given**.
+
+### 2.3 Lowest Common Ancester (20pt) 
+
+Given a binary tree, write code to find the lowest common ancestor (LCA) of two given nodes in the tree.
+
+And yes, there is a [leetcode problem of this](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/).
+
+According to the [definition of LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow **a node to be a descendant of itself**).”
+
+Tests are provided and also serve as a manual for how the algorithm should work. For example:
+
+```java
+	      1
+             / \
+            2   3
+           / \   \
+          4   5   6
+
+```
+
+In this tree, the LCA of nodes 4 and 6 is 1. The LCA of nodes 4 and 5 is 2. 
+
+This is to be done with recursion. 
+
+**Notice: The input tree is NOT necessarily a binary search tree.**
+
+***Important Assumptions:***
+
+1. The given two nodes always exist in the given tree
+2. All nodes in a given tree have unique values. 
