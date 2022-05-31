@@ -17,7 +17,7 @@
 
 ### Problems To Solve
 
-There are **Two** problems to solve, **one** extra credit, and **one** for the final exam:
+There are **Two** problems to solve for this homeworks. In addition, there's **one** more for extra credit, and another **one** for the final exam:
 
 - [Problem 1, class survey](problem_1.md), deadline this Friday (40pt)
 - [Problem 2](problem_2.md) (60pt)
