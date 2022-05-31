@@ -84,5 +84,8 @@ time: merkle(11), primitive(115584) ms
 time: merkle(87), primitive(98878) ms
 ```
 
-11ms vs 115584ms, and 87ms vs 98878ms. It's obvious that with the help of the Merkle tree, it takes a lot less time to check whether some values have changed in a key-value store. The task for you is to provide an analysis explaining WHY we are getting this this is the case. This is to be added as an
-block of comments in the code right below the *diff_keys_compare_time_large_kv* test. 
+11ms vs 115584ms, and 87ms vs 98878ms. It's obvious that with the help of the Merkle tree, it takes a lot less time to check whether some values have changed in a key-value store. The task for you is to provide an analysis explaining WHY this is the case. 
+
+In specifc, in your analysis, discuss the reason why our store validation takes less time using Merkle tree. 
+
+This is to be added as a block of comments in the code right below the *diff_keys_compare_time_large_kv* test. Do not add any new file.
