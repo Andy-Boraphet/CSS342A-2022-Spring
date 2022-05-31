@@ -16,7 +16,7 @@ When n is 2, there are two, "()()" and "(())".
 
 When n is 3, there are "(())()", "()()()", "((()))", so on. 
 
-How about when is 15?
+How about when n is 15?
 
 In this problem, let's write the code that does this:
 
