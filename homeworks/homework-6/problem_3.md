@@ -3,9 +3,13 @@
 
 ## (20pt) Merkle Tree KV Store (Extra Credit)
 
+```
 "ugh..another data structure!", a student sighed. 
+
 "But wait, this one is pretty fun.", says the instructor.
+
 "But you say that about all of them!", a student replies.
+```
 
 ### Merkle Tree
 
