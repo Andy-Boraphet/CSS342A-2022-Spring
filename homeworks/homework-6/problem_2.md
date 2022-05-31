@@ -66,9 +66,8 @@ In this tree, the LCA of nodes 4 and 6 is 1. The LCA of nodes 4 and 5 is 2.
 
 This is to be done with recursion. 
 
-**Notice: The input tree is NOT necessarily a binary search tree.**
-
 ***Important Assumptions:***
 
-1. The given two nodes always exist in the given tree
+1. The given two nodes always exist in the given tree.
 2. All nodes in a given tree have unique values. 
+3. The input tree is NOT necessarily a binary search tree.
