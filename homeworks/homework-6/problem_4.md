@@ -207,3 +207,9 @@ Here are some prelimary result:
 First column is table size and the rest are running time in microseconds in the sequence of hashtable index, B-tree index and direct search in vector.
 
 Similarly, run this with larger table size (change only STEP_TABLE_SIZE and MAX_TABLE_SIZE), and write an analysis of what you observes with your running output. 
+
+### Trivia
+
+What's with the name of the database *GasWorksDB*?
+
+The entire code was written on the day where I took a bike ride to gasworks park in Seattle. There was [a band on top of the hill](https://youtu.be/RzzsI6qEDsI) and weather was nice. The name of our DB is just to remember that good day. :)
