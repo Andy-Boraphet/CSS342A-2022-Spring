@@ -28,6 +28,12 @@ void CatalanNumberSolver::possible_parenthesis(size_t n, std::vector<std::string
 }
 ```
 
+Requirements:
+
+- This is to be done with recursion
+- O(1) space (not using any buffer such as vector/array/stack/queue/map) 
+- No loop of any kind is permitted.
+
 This is yet another backtracking recursive problem. Also on [LeetCode](https://leetcode.com/problems/generate-parentheses/).
 
 This problem has a lot of similarity with the permutation and Soduku solver, and be careful, it is very easy to overthink. Try it yourself for a few hours and if nothing comes up, research some solution and understand it. The code in the right implementation is all beauty with recursion. 
