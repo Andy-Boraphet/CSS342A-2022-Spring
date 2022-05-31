@@ -17,9 +17,10 @@
 
 ### Problems To Solve
 
-There are **Two** problems to solve in this homework. In addition, there's **one** more for extra credit, and another **one** for the final exam:
+There are **Three** problems to solve in this homework. In addition, there's **one** more for extra credit, and another **one** for the final exam:
 
-- [Problem 1, class survey](problem_1.md), deadline this Friday (40pt)
+- [Problem 0, class survey](problem_0.md), deadline this Friday (20pt)
+- [Problem 1](problem_1.md) (20pt)
 - [Problem 2](problem_2.md) (60pt)
 - [Problem 3](problem_3.md) (20pt), extra credit, and only do this when you've finished the other three problems
 
