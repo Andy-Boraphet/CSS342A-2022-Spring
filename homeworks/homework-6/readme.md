@@ -17,11 +17,11 @@
 
 ### Problems To Solve
 
-There are **Four** problems to solve:
+There are **Two** problems to solve, **one** extra credit, and **one** for the final exam:
 
 - [Problem 1, class survey](problem_1.md), deadline this Friday (40pt)
 - [Problem 2](problem_2.md) (60pt)
-- [Problem 3](problem_3.md) (20pt), extra credit
+- [Problem 3](problem_3.md) (20pt), extra credit, and only do this when you've finished the other three problems
 
 And the following counts as 50% of the final exam
 - [Problem 4](problem_4.md) (50pt)
