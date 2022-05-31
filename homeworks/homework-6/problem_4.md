@@ -76,7 +76,7 @@ Regardless how an index is implemented, the input to an idex is a key or a range
 
 So how do we implement the index? There are many options. Remember, the goal of the index is allowing quick search. Among the ADTs we've covered this semester, hashtable and binary search trees are the ones that fit that profile. To push things to another level, instead of using good'o binary search tree, we'll opt for a fancier version search tree: B-Tree. 
 
-Two indexes are implemented and provided in our code base.
+Two indexes are implemented and provided in our code base. One with hashtable (std::std::unordered_map) and the other with B-tree (using an [existing implementation](https://github.com/Kronuz/cpp-btree)). Here's an illustration from our lecture slides.
 
 <img width="257" alt="image" src="https://user-images.githubusercontent.com/252020/171229584-c04a24e5-3f0d-4de5-be63-d670f9363bf8.png">
 
