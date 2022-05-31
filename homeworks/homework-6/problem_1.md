@@ -4,45 +4,12 @@
      
 
      
-## (30pt) Reverse a List
+## (20pt) Class Survey
 
-Going backward is fun sometimes. And this time we are doing it with recursion. 
+You should have received [a class survey](https://uwb.iasystem.org/survey/27303) from school (DM me if not) about this class. 
 
-### Going Reverse
+Please finish this survey by **This Friday, Jun  3, 2022 at 11:59pm**.
 
-First, we'll reverse a list implemented with an array, aka ArrayList:
+As a proof of completion, please send a screenshot to my email at pengdu@uw.edu with the title *"homework 6 problem 0". It should show the survey is completed*. 
 
-
-```c++
-template<class T>
-void ArrayList<T>::reverse_recursive() {
-    /*
-     * TODO: homework
-     */
-}
-```
-
-And then, same for a single linked list:
-
-```c++
-template<class T>
-void LinkedList<T>::reverse_recursive() {
-    /*
-     * TODO: homework
-     */
-}
-```
-
-15pt for each, and all tests are given.
-
-In our [previously lecture](https://youtu.be/po5xhPsq4Ug?t=780), the idea of how to reverse a linked list *iteratively (meaning using loop)* was discussed, and that is to travel through the linked list front front to end, and move each node of the linked list to the front. Now, with recursion, the idea is actually very similiar, except it's doing it from the opposite direction. See if you can figure it out. We will have a special lecture to discuss more of this. 
-
-Key requirements to note:
-
-- With recursion, these are to be done with O(1) space complexity, meaning no additional buffer such as array/vector/stack/queue/map can be used. Helper functions are provided but you can define your own.
-- No loop of any kind (for, while, do...while, goto?) is allowed.
-
-
-
-
-
+**Important:** The deadline of the survey to school is earlier than the deadline for other part of this homework. 
