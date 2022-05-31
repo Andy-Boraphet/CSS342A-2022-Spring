@@ -11,7 +11,9 @@ TL;DR. A summary of tasks to do
 - Run performance test and write analysis for single query
 - Run performance test and write analysis for range query
 
-Report is to be written in the *test/problem_4/report* file.
+Report is to be written in the *test/problem_4/report* file. All tests should pass upon completion.
+
+Note: the performance test could take a long time to run. Advise to not change the test size in the code you submit to github. You can play with different sizes on your machine all you want. Change them back to the original settings before you commit and push.
 
 ### Storing large amount of data
 
@@ -70,7 +72,7 @@ public:
 
 So the input to an idex is a key or a range of keys, and the output is a set of record *id* that matches the given key. Note there could be multiple matches, and therefore the output is stored in a vector. Using the output ids from the index, the corresponding records can be quickly located. Quickly how? Because records are stored in a vector which supports O(1) random access using. 
 
-### Index with B-Tree (15pt)
+### Index with B-Tree (20pt)
 
 So how do we implement the index? There are many options. Remember, the goal of the index is allowing quick search. Among the ADTs we've covered this semester, hashtable and binary search trees are the ones that fit that profile. To push things to another level, instead of using good'o binary search tree, we'll opt for a fancier version search tree: B-Tree. 
 
@@ -125,7 +127,7 @@ bool GasWorksDB::find_by_name(const std::string &name, std::vector<Record> &foun
 
 Test should pass upon finish. The missing part to be finished is searching through the record vector for those that matches the name. There are similar functions such as *find_by_age* for your reference. Don't over think this one. It's *that* simple.
 
-### Performance Test (15pt)
+### Performance Test (10pt)
 
 For this section, we evaluate how much an index could really help with performance. 
 
