@@ -52,7 +52,9 @@ TEST(problem_1, your_test) {
 }
 ```
 
-Another test is provided already. 
+This should be done by simply listing out the input and expected outputs in literal strings, and use a loop to test each cases. 
+
+In additon, another test is provided already. 
 
 ```c++
 TEST(problem_1, possible_parentheses) {...}
