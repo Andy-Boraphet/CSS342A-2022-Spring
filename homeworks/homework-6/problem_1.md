@@ -52,4 +52,10 @@ TEST(problem_1, your_test) {
 }
 ```
 
-Another test is provided already. Usually this problem can be validated with just n=1,2,3 cases by writing out all the expect solutions in string literals such as "()()". Not for us 342ers. Instead, the test is written here to be able to validate *any* size. Larger sizes may take longer to run but it will finish if you have a better computer. Best part is we human doesn't have to spell out all those literals. Take a read of how the testing is written, and write a section of comments in the test code explaining the testing logic. 
+Another test is provided already. 
+
+```c++
+TEST(problem_1, possible_parentheses) {...}
+```
+
+Usually this problem can be validated with just n=1,2,3 cases by writing out all the expect solutions in string literals such as "()()". Not for us 342ers. Instead, the test is written here to be able to validate *any* size. Larger sizes may take longer to run but it will finish if you have a better computer. Best part is we human doesn't have to spell out all those literals. Take a read of how the testing is written, and write a section of comments in the test code explaining the testing logic. 
