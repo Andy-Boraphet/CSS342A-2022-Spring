@@ -28,7 +28,7 @@ public:
         data = new int[capacity];
         for (int i = 0; i < capacity; i++) {
             data[i] = i + 2;
-            std::cout << "I love C++" << std::endl; // 7.4 is asking about this line
+            std::cout << "I love C++" << std::endl;
         }
     }
     virtual int get_capacity() = 0;
