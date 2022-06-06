@@ -82,11 +82,11 @@ Two indexes are implemented and provided in our code base. One with hashtable (s
 
 Your task is to conduct some self-study and understand the following:
 
-- How B-Tree works? (focus on searching in an B-Tree)
+- How does B-Tree work? (focus on searching in an B-Tree)
 - How does B-Tree compares to a binary search tree?
 - Why could B-Tree be helpful for data indexing?
 - What's the search complexity of B-Tree? And how does it affect search efficiency (time) comparing to hashtable?
-- B-Tree provides advantage over hashtable for range query. For example, 
+- Why does B-Tree provide advantage over hashtable for range query. 
 
 Add your study result in the *report* file.
 
