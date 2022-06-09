@@ -182,7 +182,7 @@ void delete_tree(TreeNode<T> *tree) {
 ```
 
 
-**5.4 (3pt) Use the tree in 5.1 as input to the delete_tree function, and list the node values in the sequence of visit by delete_tree.**
+**5.4 (3pt) Use the tree in 5.1 as input to the delete_tree function, and list the node values in the sequence of deleted by delete_tree.**
 ```
 
 ```
