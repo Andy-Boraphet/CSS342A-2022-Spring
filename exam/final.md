@@ -224,6 +224,13 @@ int fib(int n) {
 
 ```
 
+**8. (10pt) To store a large number of user record (such as user name, id, hobbies), discuss what would be the best data structure for search and insertion.**
+
+```
+
+
+```
+
 **Extra credit 1 (5pt): (5pt) Given two hashmaps, both defined as:**
 ```c++
 std::unordered_map<int, int>
