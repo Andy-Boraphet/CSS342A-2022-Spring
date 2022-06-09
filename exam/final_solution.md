@@ -228,9 +228,22 @@ Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 **6.1 (2pt) Your code below:**
 ```c++
 int fib(int n) {
-   
-       
-       
+    int last_two = 0;
+    int last_one = 1;
+    
+    if (n<=0) {
+        return 0;
+    } else if (n==1) {
+        return 1;
+    }
+    
+    for (int i=1; i<n; i++) {
+        int cur = last_two + last_one;
+        last_two = last_one;
+        last_one = cur;
+    }
+    
+    return last_one;
 }
 ```
 
