@@ -3,12 +3,13 @@
 
 **1. (2pt) What's the worst case time complexity of bubble sort and insertion sort, respectively?**
 ```
-
+O(n^2)
 
 ```
 
 **2. (2pt) Explain what "collision" means for the hashtable ("dictionary")?** 
 ```
+multiple key hashed to the same hash key
 
 ```
 
@@ -36,10 +37,9 @@ int main()
 
 Describe your fix.
 ```
+multiple_by_two return an integer instead of a reference.
 
-
-
-
+add delete []data at the end of main
 ```
 
 **4. (10pt) Given the following code:**
@@ -97,14 +97,24 @@ int main() {
 
 **4.1 (2pt) What's the output?**
 ```
-
-
+30
+11
+12
+33
+14
+15
+36
+17
+18
+39
 ```
 
 **4.2 (2pt) In the following line, what does "=0" mean?**
 ```
     virtual int get_capacity() = 0;
-
+```
+```
+pure virtual function. this virtual function has no implementation
 ```
 
 **4.3 (4pt) Running the code as is, valgrind is showing memory leak. How to fix it without changing any member function body (the part between { and })?**
@@ -114,14 +124,13 @@ int main() {
 ```
 
 ```
-
-
+make ~BaseClass() virtual
 
 ```
 
 **4.4 (2pt) How many times are "I hate C++" printed when running the code? And why?**
 ```
-
+zero because the base calss constructor is never called.
 
 ```
 
@@ -138,19 +147,18 @@ int main() {
 ```
 
 ```
-pre-order: 
+pre-order: 5 4 1 7 9 6
 
 
-in-order:
+in-order: 1 4 5 7 6 9
 
 
-post-order:
+post-order: 1 4 6 9 7 5
 ```
 
 **5.2 (2pt) Is this tree a BST (binary search tree)? If not, change the value of exactly one node and make it a binary search tree.**
 ```
-
-
+not a BST. change 6 to 8
 ```
 
 **5.3 (5pt) Given the root node of a binary tree, write the code that deletes the tree. This means delete all the nodes in the tree without memory leak. Hint: recursion.**
@@ -177,14 +185,26 @@ public:
 
 template<typename T>
 void delete_tree(TreeNode<T> *tree) {
-    // TODO: add your answer here
+    if (tree == nullptr) {
+        return;
+    }
+
+    if (tree->left == nullptr && tree->right == nullptr) {
+        delete tree;
+        return;
+    }
+
+    delete_tree(tree->left);
+    delete_tree(tree->right);
+
+    delete tree;
 }
 ```
 
 
 **5.4 (3pt) Use the tree in 5.1 as input to the delete_tree function, and list the node values in the sequence of visit by delete_tree.**
 ```
-
+post order: 1 4 6 9 7 5
 ```
 
 
@@ -208,7 +228,7 @@ Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 **6.1 (2pt) Your code below:**
 ```c++
 int fib(int n) {
-       
+   
        
        
 }
@@ -216,20 +236,20 @@ int fib(int n) {
 
 **6.2 (2pt) Explain what is "repeated sub-problem" in recursion? and defend that your code for fib(int n) does not have this problem.**
 ```
-
+function of the same subproblem being called repeated during recursion.
 
 ```
 
 **7. (2pt) What's the difference between std::map and std::unordered_map in terms of search performance?**
 ```
-
+std::map is O(lgn) while std::unordered_map is O(n) in worst case and O(1) in average case
 
 ```
 
 **8. (10pt) To store a large number of user record (such as user name, id, hobbies), discuss what would be the best data structure for search and insertion.**
 
 ```
-
+use array to store the data, and use a tree structure for fast search 
 
 ```
 
@@ -244,14 +264,13 @@ Code and/or text description of your design both okay.
 Hint: one of the cool tree ADTs we dicussed in lecture.
 
 ```
-
-
+Use merkle tree
 
 ```
 
 **Extra credit 2 (5pt): What's the programming language introduced by the guest speaker Rick? And what are some of the key benefits of that language compared to C++?**
 ```
-
+Rust, memory safety
 
 ```
 
