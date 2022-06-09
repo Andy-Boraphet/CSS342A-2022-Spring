@@ -1,7 +1,7 @@
 ## 2022 UWB CSS 342(A) Final Exam (50pt)
 
 
-**1. (2pt) What's the worst case search complexity of bubble sort and insertion sort, respectively?**
+**1. (2pt) What's the worst case time complexity of bubble sort and insertion sort, respectively?**
 ```
 
 
