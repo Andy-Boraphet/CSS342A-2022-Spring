@@ -1,7 +1,7 @@
 ## 2022 UWB CSS 342(A) Final Exam (50pt)
 
 
-**1. (2pt) What's the time complexity of bubble sort and insertion sort, respectively?**
+**1. (2pt) What's the worst case search complexity of bubble sort and insertion sort, respectively?**
 ```
 
 
@@ -13,7 +13,8 @@
 ```
 
 **3. (5pt) Your friend Jimmy (yes, him again) is having trouble with the following code. How to fix all the problems in his code?**
-Hint: you can use this [online c++ editor](https://www.onlinegdb.com/online_c++_compiler) to play with the code
+
+Hint: you can use this [online c++ editor](https://www.onlinegdb.com/online_c++_compiler) to play with the code.
 
 ```c++
 int& multiple_by_two(int num) {
@@ -33,6 +34,7 @@ int main()
 }
 ```
 
+Describe your fix.
 ```
 
 
@@ -57,7 +59,7 @@ public:
         data = new int[capacity];
         for (int i = 0; i < capacity; i++) {
             data[i] = i + 2;
-            std::cout << "I love C++" << std::endl; // 7.4 is asking about this line
+            std::cout << "I hate C++" << std::endl; // 4.4 is asking about this line
         }
     }
     virtual int get_capacity() = 0;
@@ -105,7 +107,7 @@ int main() {
 
 ```
 
-**4.3 (4pt) Running the code as is, valgrind is showing memory leak. How to fix it?**
+**4.3 (4pt) Running the code as is, valgrind is showing memory leak. How to fix it without changing any member function body (the part between { and })?**
 ```
 ==22708== LEAK SUMMARY:
 ==22708==    definitely lost: 40 bytes in 1 blocks
@@ -117,7 +119,7 @@ int main() {
 
 ```
 
-**4.4 (2pt) How many times are "I love C++" printed when running the code? And why?**
+**4.4 (2pt) How many times are "I hate C++" printed when running the code? And why?**
 ```
 
 
@@ -180,7 +182,7 @@ void delete_tree(TreeNode<T> *tree) {
 ```
 
 
-**5.4 (3pt) Use the tree in 12.1 as input to the delete_tree function, and list the nodes in sequence of visit.**
+**5.4 (3pt) Use the tree in 5.1 as input to the delete_tree function, and list the node values in the sequence of visit by delete_tree.**
 ```
 
 ```
@@ -212,39 +214,42 @@ int fib(int n) {
 }
 ```
 
-**6.2 (2pt) Explain what is "repeated sub-problem" in recursion? and explain why your code above is free from this problem.**
+**6.2 (2pt) Explain what is "repeated sub-problem" in recursion? and defend that your code for fib(int n) does not have this problem.**
 ```
 
 
 ```
 
-**7. (2pt) what's the difference between std::map and std::unordered_map in terms of search performance?**
+**7. (2pt) What's the difference between std::map and std::unordered_map in terms of search performance?**
 ```
 
 
 ```
 
-**8. (10pt) To store a large number of user record (such as user name, id, hobbies), discuss what would be the best data structure for efficient search and insertion.**
+**8. (10pt) To store a large number of user record (such as user name, id, hobbies), discuss what would be the best data structure for search and insertion.**
 
 ```
 
 
 ```
 
-**Extra credit 1 (5pt): (5pt) Given two hashmaps, both defined as:**
+**Extra credit 1 (5pt): (5pt) Given two vectors, both defined as:**
 ```c++
-std::unordered_map<int, int>
+std::vector<int>
 ``` 
-Design a code to check whether the two maps contain the exact same data as efficient (fast) as possible. 
+Design a method to check whether the two vectors contain the exact same data in O(1) time complexity. Note, O(1) is for the checking part of the algorithm. Also, no requirement on space complexity.
 
 Code and/or text description of your design both okay.
+
+Hint: one of the cool tree ADTs we dicussed in lecture.
+
 ```
 
 
 
 ```
 
-**Extra credit 2 (5pt): What's the programming language introduced by the guest speaker, and what are some of the key benefits of it comparing to C++?**
+**Extra credit 2 (5pt): What's the programming language introduced by the guest speaker Rick? And what are some of the key benefits of that language compared to C++?**
 ```
 
 
