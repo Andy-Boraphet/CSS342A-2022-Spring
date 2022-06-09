@@ -233,7 +233,7 @@ int fib(int n) {
 
 ```
 
-**Extra credit 1 (5pt): (5pt) Given two vectors, both defined as:**
+**Extra credit 1 (5pt): Given two vectors, both defined as:**
 ```c++
 std::vector<int>
 ``` 
