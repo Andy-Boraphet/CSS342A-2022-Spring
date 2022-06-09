@@ -224,7 +224,7 @@ int fib(int n) {
 
 ```
 
-**8. (10pt) To store a large number of user record (such as user name, id, hobbies), discuss what would be the best data structure for search and insertion.**
+**8. (10pt) To store a large number of user record (such as user name, id, hobbies), discuss what would be the best data structure for efficient search and insertion.**
 
 ```
 
